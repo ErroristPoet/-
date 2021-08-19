@@ -2,6 +2,7 @@ body {
   background-color: black;
   color: cornsilk;
   margin: 25px;
+  font: sans-serif;
 }
 a:link {
   color: cornsilk;
@@ -11,4 +12,13 @@ a:visited {
 }
 hr {
   border-color: cornsilk;
+}
+h1 {
+  font-size: 35px;
+}
+h2 {
+  font-size: 25px;
+}
+li {
+  list-style-type: square;
 }
