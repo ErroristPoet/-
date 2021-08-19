@@ -1,4 +1,11 @@
 body {
   background-color: black;
-  color: white;
+  color: cornsilk;
+  margin: 25px;
+}
+a:link {
+  color: cornsilk;
+}
+a:visited {
+  color: silver;
 }
