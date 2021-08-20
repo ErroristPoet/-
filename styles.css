@@ -1,7 +1,7 @@
 header {
   justify-content: center;
   color: cornsilk;
-  font: sans-serif;
+  font-family: 'Times New Roman', Georgia, serif;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -16,7 +16,7 @@ body {
   color: cornsilk;
   margin: 0 auto;
   padding: 25px;
-  font: sans-serif;
+  font-family: 'Times New Roman', Georgia, serif;
   text-align: center;
 }
 a:link {
@@ -34,10 +34,13 @@ h1 {
 h2 {
   font-size: 25px;
 }
-li {
-  list-style-type: square;
-}
 a:hover {
     color: black;
     background-color: cornsilk;
+}
+ul {
+  display: contents;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
 }
