@@ -1,90 +1,50 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-<head>
-  <link rel="stylesheet" href="styles.css"</head>
-  <meta charset="utf-8">
-  <title>About Myself</title>
-</head>
-
-<body>
-  <table cellspacing="20">
-    <tr>
-      <td> <img src="/home/paul/Downloads/me.jpg" alt="Quizzical man with beard">
-      </td>
-      <td>
-        <h1>My Contact Details</h1>
-        <p><a href="mailto:donnelly.pf@gmail.com">E-Mail</a></p>
-        <p><a href="https://www.instagram.com/23skidoo/">Instagram</a></p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h2>Work Experience</h2>
-  <table class="workexp" cellspacing="10">
-    <tr>
-      <td>Securitas - Data Centre Security</td>
-      <td>June 2021 - Present</td>
-    </tr>
-    <tr>
-      <td>Corsec Services - Security Investigator</td>
-      <td>November 2019 - February 2021</td>
-    </tr>
-    <tr>
-      <td>Corsec Services - Security Officer</td>
-      <td>May 2017 - November 2019</td>
-    </tr>
-    <tr>
-      <td>Scene To Believe - Photographer</td>
-      <td>November 2018 - December 2018</td>
-    </tr>
-    <tr>
-      <td>Wilson Security - Security Officer</td>
-      <td>February 2015 - February 2017</td>
-    </tr>
-    <tr>
-      <td>BUPA Care Services - Personal Care Assistant</td>
-      <td>January 2012 - January 2014</td>
-    </tr>
-    <tr>
-      <td>ADF Group - Security Officer</td>
-      <td>March 2006 - March 2009</td>
-    </tr>
-    <tr>
-      <td>Engraving Plus - Apprentice Footwear Repairer</td>
-      <td>January 2004 - March 2005</td>
-    </tr>
-  </table>
-  <hr>
-  <h2>Skills</h2>
-  <table class="workexp" cellspacing="10">
-    <tr>
-      <td>Photography</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Customer Service</td>
-      <td>⭐⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>HTML5</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>CSS3</td>
-      <td>⭐⭐</td>
-    </tr>
-  </table>
-  <hr>
-  <form class="" action="mailto:donnelly.pf@gmail.com" method="post"
-  <label>Your Name:</label>
-  <input type="text" name="yourName" value=""><br>
-  <label>Your E-mail:</label>
-  <input type="email" name="yourEmail" value=""><br>
-  <label>Your Message:</label><br>
-  <textarea rows="10" cols="30"></textarea><br>
-  <input type="submit" name=""><br><br>
-  <a href="index.html">Back to Main</a>
-  <hr>
-</body>
-</html>
+header {
+  justify-content: center;
+  color: cornsilk;
+  font-family: 'Times New Roman', Georgia, serif;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  bottom: 10px;
+  padding: 0 0 0 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+}
+body {
+  background-color: black;
+  color: cornsilk;
+  margin: 0 auto;
+  padding: 25px;
+  font-family: 'Times New Roman', Georgia, serif;
+  text-align: center;
+}
+a:link {
+  color: cornsilk;
+}
+a:visited {
+  color: silver;
+}
+hr {
+  border-color: cornsilk;
+}
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 25px;
+}
+a:hover {
+    color: black;
+    background-color: cornsilk;
+}
+ul {
+  display: contents;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
+}
+.workexp {
+  margin-left: auto;
+  margin-right: auto;
+}
