@@ -37,3 +37,7 @@ h2 {
 li {
   list-style-type: square;
 }
+a:hover {
+    color: black;
+    background-color: cornsilk;
+}
