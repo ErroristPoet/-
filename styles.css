@@ -1,8 +1,11 @@
 body {
   background-color: black;
   color: cornsilk;
-  margin: 25px;
+  margin: 0 auto;
+  padding: 25px
   font: sans-serif;
+  text-align: center;
+
 }
 a:link {
   color: cornsilk;
