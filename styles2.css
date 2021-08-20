@@ -3,7 +3,7 @@ body {
   color: black;
   margin: 0 auto;
   padding: 25px;
-  font: sans-serif;
+  font-family: 'Times New Roman', Georgia, serif;
   text-align: center;
 
 }
@@ -22,9 +22,6 @@ h1 {
 h2 {
   font-size: 25px;
 }
-li {
-  list-style-type: square;
-}
 header {
   position: -webkit-sticky;
   position: sticky;
@@ -38,4 +35,10 @@ header {
 a:hover {
     color: cornsilk;
     background-color: black;
+}
+ul {
+  display: contents;
+  margin-left: auto;
+  margin-right: auto;
+  list-style: none;
 }
