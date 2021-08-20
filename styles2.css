@@ -1,0 +1,27 @@
+body {
+  background-color: cornsilk;
+  color: black;
+  margin: 0 auto;
+  padding: 25px
+  font: sans-serif;
+  text-align: center;
+
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: silver;
+}
+hr {
+  border-color: black;
+}
+h1 {
+  font-size: 45px;
+}
+h2 {
+  font-size: 25px;
+}
+li {
+  list-style-type: square;
+}
