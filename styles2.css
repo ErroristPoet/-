@@ -1,13 +1,3 @@
-@media only screen and (max-device-width: 480px) {
-   header {
-   width: 400px;
- }
-   body {
-   float: none;
-   width: 100%
- }
-}
-
 body {
   background-color: cornsilk;
   color: black;
