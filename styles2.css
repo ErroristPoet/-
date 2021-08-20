@@ -2,7 +2,7 @@ body {
   background-color: cornsilk;
   color: black;
   margin: 0 auto;
-  padding: 25px
+  padding: 25px;
   font: sans-serif;
   text-align: center;
 
@@ -24,4 +24,14 @@ h2 {
 }
 li {
   list-style-type: square;
+}
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  bottom: 10px;
+  padding: 0 0 0 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: cornsilk;
 }
