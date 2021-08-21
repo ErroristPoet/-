@@ -18,9 +18,10 @@ h1 {
   text-align: center;
 }
 
-.navbar-nav > li > .dropdown-menu { 
+.dropdown-menu { 
 background-color: #FFF8DC;
-} 
-.navbar-nav > li > .dropdown-menu a{ 
+}
+
+.dropdown-menu a{ 
 color: #000000; 
 }
