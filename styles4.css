@@ -16,5 +16,11 @@ h5font {
 h1 {
   font-size: 50px;
   text-align: center;
+}
 
+.navbar-nav > li > .dropdown-menu { 
+background-color: #FFF8DC;
+} 
+.navbar-nav > li > .dropdown-menu a{ 
+color: #000000; 
 }
