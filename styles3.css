@@ -51,7 +51,6 @@ a:hover {
 }
 
 .intro {
-  width: 50%;
   margin: auto;
 }
 
@@ -79,7 +78,7 @@ a:hover {
 }
 
 .teddy-eye {
-  max-width: 35%;
+  max-width: 50%;
   height: auto;
   float: left;
   margin-right: 30px;
@@ -87,12 +86,15 @@ a:hover {
 
 .me {
   padding-top: 35px;
-  max-width: 25%;
+  max-width: 35%;
+  height: auto;
 }
 
 .skeleton-hand {
   position: absolute;
   float: right;
+  max-width: 50%;
+  height: auto;
 }
 .code {
   float: right;
