@@ -125,13 +125,13 @@ a:hover {
   background-image: -ms-linear-gradient(top, #ED5107, #ED5107);
   background-image: -o-linear-gradient(top, #ED5107, #ED5107);
   background-image: linear-gradient(to bottom, #ED5107, #ED5107);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
+  -webkit-border-radius: 20;
+  -moz-border-radius: 20;
+  border-radius: 20px;
   font-family: Georgia;
   color: #000000;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
+  font-size: 15px;
+  padding: 10px 10px 10px 10px;
   text-decoration: none;
 }
 
