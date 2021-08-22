@@ -96,10 +96,10 @@ a:hover {
   max-width: 50%;
   height: auto;
 }
-.code {
+.webdevskill {
   float: right;
   height: auto;
-  margin-bottom: 25px;
+  max-width: 75%;
   padding-bottom: 30px;
 }
 
