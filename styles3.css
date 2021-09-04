@@ -116,15 +116,22 @@ color: #F89D13;
 .photography-table {
   text-align: center;
   margin: auto;
+  border-spacing: 5px;
 }
 .coding-table {
   text-align: center;
   margin: auto;
+  border-spacing: 5px;
 }
 .workexp {
   margin: auto;
   text-align: left;
   text-align: center;
+  border-spacing: 5px;
+  border: dotted #ED5107;
+}
+.workexp td {
+  border: dotted #ED5107;
 }
 /* Images */
 
