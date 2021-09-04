@@ -8,7 +8,7 @@ body {
 h1 {
   margin-top: 50px;
   font-family: 'Creepster', 'Times New Roman';
-  font-size: 4em;
+  font-size: 5.625em;
   line-height: 2;
   color: black;
 }
@@ -36,6 +36,7 @@ hr {
 
 a {
   font-family: 'Merriweather', serif;
+  margin: 10px 20px;
   text-decoration: none;
 }
 
@@ -51,6 +52,7 @@ a:hover {
 }
 
 .intro {
+  width: 30%;
   margin: auto;
 }
 
@@ -64,30 +66,35 @@ a:hover {
 .bottom-container {
   color: black;
   background-color: #F89D13;
-  padding: 50px 0 20px 0;
+  padding: 50px 0 20px;
 }
 
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
-  text-align: left;
+  text-align: center;
 }
 
 .webdeveloper {
   text-decoration: underline;
 }
 
+.workexp {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Images */
 .teddy-eye {
-  max-width: 50%;
-  height: auto;
+  max-width: 35%;
+  padding-top: 12%;
   float: left;
   margin-right: 30px;
 }
 
 .me {
   padding-top: 35px;
-  max-width: 35%;
-  height: auto;
+  max-width: 25%;
 }
 
 .skeleton-hand {
@@ -97,10 +104,8 @@ a:hover {
   height: auto;
 }
 .webdevskill {
-  float: right;
-  height: auto;
-  max-width: 75%;
-  padding-bottom: 30px;
+  float: right ;
+  padding-bottom: 20%;
 }
 
 .poem-img {
@@ -108,7 +113,7 @@ a:hover {
   max-width: 75%;
   padding-bottom: 20px;
 }
-
+/* Footer */
 .footer-link {
   color: #ED5107;
 }
@@ -117,7 +122,7 @@ a:hover {
   width: 40%;
   margin: 40px auto 60px;
 }
-
+/* Buttons */
 .btn {
   background: #ED5107;
   background-image: -webkit-linear-gradient(top, #ED5107, #ED5107);
@@ -125,13 +130,13 @@ a:hover {
   background-image: -ms-linear-gradient(top, #ED5107, #ED5107);
   background-image: -o-linear-gradient(top, #ED5107, #ED5107);
   background-image: linear-gradient(to bottom, #ED5107, #ED5107);
-  -webkit-border-radius: 20;
-  -moz-border-radius: 20;
-  border-radius: 20px;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
   font-family: Georgia;
   color: #000000;
-  font-size: 15px;
-  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
@@ -152,4 +157,29 @@ a:hover {
 
 .copyright:hover {
   color: black;
+}
+.navbar {
+  background-color: #F89D13 !important;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+.dropdown-menu {
+background-color: #000000;
+border: 1px solid #000000;
+}
+.navlink:hover {
+  border: solid Black !important;
+}
+.dropdown-menu a{
+color: #F89D13;
+}
+.dropdown-menu a:hover{
+  background-color: #F89D13;
+  color: black;
+  border: none;
+}
+
+.navbar-default .navbar-toggle:hover {
+  border-color: black !important;
 }
