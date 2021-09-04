@@ -69,33 +69,27 @@ a:hover {
   padding: 50px 0 20px;
 }
 
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: center;
-}
-
 .webdeveloper {
   text-decoration: underline;
 }
 
+
+/* Tables */
+.photography-table {
+  text-align: center;
+  margin: auto;
+}
+.coding-table {
+  text-align: center;
+  margin: auto;
+}
 .workexp {
   margin-left: auto;
   margin-right: auto;
+  text-align: left;
 }
-
 /* Images */
-.teddy-eye {
-  max-width: 35%;
-  padding-top: 12%;
-  float: left;
-  margin-right: 30px;
-}
 
-.me {
-  padding-top: 35px;
-  max-width: 25%;
-}
 
 .skeleton-hand {
   position: absolute;
@@ -103,16 +97,14 @@ a:hover {
   max-width: 50%;
   height: auto;
 }
-.webdevskill {
-  float: right ;
-  padding-bottom: 20%;
+.me {
+  padding-top: 35px;
+  max-width: 25%;
+}
+.teddy-eye {
+  width: 30%;
 }
 
-.poem-img {
-  float: right;
-  max-width: 75%;
-  padding-bottom: 20px;
-}
 /* Footer */
 .footer-link {
   color: #ED5107;
