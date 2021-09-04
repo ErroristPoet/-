@@ -1,177 +1,201 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+body {
+  margin: 0;
+  text-align: center;
+  font-family: verdana, sans-serif;
+  font-family: 'Merriweather', serif;
+}
 
-<head>
-  <!-- favicon -->
-  <link rel="icon" href="favicon.ico">
-  <!-- Google fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Creepster&family=Merriweather&display=swap" rel="stylesheet">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-  <!-- Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-  <!-- My Stylesheet -->
-  <link rel="stylesheet" type="text/css" href="styles3.css">
-  <!-- Mobile Viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Paul F Donnelly</title>
-</head>
-<nav class="navbar justify-content-center">
-  <a class="navbar-brand" href="index.html" style="color: Black">
-  </a>
-  <ul class="nav nav-tabs">
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" style="color: black">Index</a>
-      <ul class="dropdown-menu">
-        <li> <a class="dropdown-item" href="#myskills">My Skills</a></li>
-        <li> <a class="dropdown-item" href="#myworkexp">My Work Experience</a></li>
-        <li> <a class="dropdown-item" href="#contact-me">Contact</a></li>
-      </ul>
-    <li class="nav-item"><a class="nav-link" href="https://paulfdonnelly.com/index.html" style="color: Black">𝚷ΩΣΜ</a></li>
-    <li class="nav-item"><a class="nav-link" href="https://paulfdonnelly.com/other-poetry.html" style="color: Black">Other Poetry</a></li>
-  </ul>
-</nav>
+h1 {
+  margin-top: 50px;
+  font-family: 'Creepster', 'Times New Roman';
+  font-size: 5.625em;
+  line-height: 2;
+  color: black;
+}
 
-<body>
-  <div class="top-container">
-    <h1>I'm Paul.</h1>
-    <img class="skeleton-hand" src="skeleton-hand.png" alt="Skeleton hand">
-    <p>a <span class=webdeveloper>web</span> <span class=webdeveloper>developer.</span></p>
-  </div>
+h2 {
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
 
-  <div class="middle-container">
-    <div class="profile">
-      <img class="me" src="me-modified.png" alt="">
-      <h2>Hello.</h2>
-      <p class="intro">I'm an aspiring Web Developer with a firm grasp of HTML5 and CSS3 and I'm learning more and more every day.</p>
-    </div>
-    <hr>
-        <div class="skills">
-      <h2 id="myskills">My Skills:</h2>
-    <div id="skillsCarousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-        <img class="webdevskill" src="webdevskill.png">
-          <h3>Coding</h3>
-          <p>Nothing gives me more pleasure than grokking a new language.</p>
-          <table cellspacing="10" class="coding-table">
-            <tr>
-              <td>HTML5</td>
-              <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>CSS3</td>
-              <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>Bootstrap</td>
-              <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>JavaScript</td>
-              <td>⭐⭐</td>
-            </tr>
-          </table>
-        </div>
-        <div class="carousel-item">
-          <img class="teddy-eye" src="teddy-eye.jpg" alt="Vibrant blue-green cat's eye">
-          <h3>Photography</h3>
-          <p>I love shooting macro photography of eyes, insects, flowers and various interesting objects.</p>
-          <table class="photography-table" cellspacing="10">
-            <tr>
-              <td>Macro Photography</td>
-              <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>Urban Photography</td>
-              <td>⭐⭐⭐⭐⭐</td>
-            </tr>
+h3 {
+  font-family: 'Merriweather', serif;
+}
 
-            <tr>
-              <td>Portrait Photography</td>
-              <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-              <td>Astrophotography</td>
-              <td>⭐</td>
-            </tr>
-          </table>
-        </div>
-        <div class="carousel-item">
-          <img class="poem-img" src="poem-img.png" alt="mathematical symbols resembling the word poem">
-          <h3>Poetry</h3>
-          <p>I love to be creative and channel my optimistic nature into Utopian Sci-fi poetry.</p>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#skillsCarousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#skillsCarousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+p {
+  line-height: 2;
+}
 
-    <hr>
+hr {
+  border: dotted #ED5107;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
 
-    <h2 id="myworkexp">My Work Experience:</h2>
-    <table class="workexp" cellspacing="10">
-      <tr>
-        <td>Securitas - Data Centre Security</td>
-        <td>June 2021 - Present</td>
-      </tr>
-      <tr>
-        <td>Corsec Services - Security Investigator</td>
-        <td>November 2019 - February 2021</td>
-      </tr>
-      <tr>
-        <td>Corsec Services - Security Officer</td>
-        <td>May 2017 - November 2019</td>
-      </tr>
-      <tr>
-        <td>Scene To Believe - Photographer</td>
-        <td>November 2018 - December 2018</td>
-      </tr>
-      <tr>
-        <td>Wilson Security - Security Officer</td>
-        <td>February 2015 - February 2017</td>
-      </tr>
-      <tr>
-        <td>BUPA - Personal Care Assistant</td>
-        <td>January 2012 - January 2014</td>
-      </tr>
-      <tr>
-        <td>ADF Group - Security Officer</td>
-        <td>March 2006 - March 2009</td>
-      </tr>
-      <tr>
-        <td>Engraving Plus - Apprentice</td>
-        <td>January 2004 - March 2005</td>
-      </tr>
-    </table>
-    <hr>
+a {
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
 
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3>Add me on Instagram, or send me an e-mail.</h3>
-      <p>I look forward to hearing from you soon!</p>
-      <br>
-      <a class="btn" href="mailto:donnelly.pf@gmail.com">CONTACT ME</a>
-    </div>
-  </div>
+a:hover {
+  color: black;
+}
 
-  <div class="bottom-container">
-    <a class="footer-link" href="https://www.linkedin.com/in/paul-donnelly-831866140/"><i class="fa-2x linkedin-icon fab fa-linkedin-in"></i></a>
-    <a href="https://instagram.com/paulfdonnelly"<i class="fab fa-instagram fa-2x instagram-icon"></i></a>
-    <a class="footer-link" href="https://www.facebook.com/donnellypf"><i class="fab fa-2x fa-facebook facebook-icon"></i></a>
-    <p class="copyright">© 2021 Paul Donnelly.</p>
-  </div>
+/* Navigation Bar */
 
-  </div>
-</body>
+.navbar {
+  background-color: #F89D13 !important;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+.dropdown-menu {
+background-color: #000000;
+border: 1px solid #000000;
+}
+.navlink:hover {
+  border: solid Black !important;
+}
+.dropdown-menu a{
+color: #F89D13;
+}
+.dropdown-menu a:hover{
+  background-color: #F89D13;
+  color: black;
+  border: none;
+}
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.navbar-default .navbar-toggle:hover {
+  border-color: black !important;
+}
 
-</html>
+/* Intro */
+
+.top-container {
+  background-color: #F89D13;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+/* Body */
+
+.middle-container {
+  background-color: black;
+  color: #F89D13;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bottom-container {
+  color: black;
+  background-color: #F89D13;
+  padding: 50px 0 20px;
+}
+
+.webdeveloper {
+  text-decoration: underline;
+}
+
+
+/* Tables */
+.photography-table {
+  text-align: center;
+  margin: auto;
+}
+.coding-table {
+  text-align: center;
+  margin: auto;
+}
+.workexp {
+  margin: auto;
+  text-align: left;
+  text-align: center;
+}
+/* Images */
+
+
+.skeleton-hand {
+  position: absolute;
+  float: right;
+  max-width: 50%;
+  height: auto;
+}
+.me {
+  padding-top: 35px;
+  max-width: 25%;
+}
+.teddy-eye {
+  width: 30%;
+}
+
+/* Footer */
+.footer-link {
+  color: #ED5107;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+/* Buttons */
+.btn {
+  background: #ED5107;
+  background-image: -webkit-linear-gradient(top, #ED5107, #ED5107);
+  background-image: -moz-linear-gradient(top, #ED5107, #ED5107);
+  background-image: -ms-linear-gradient(top, #ED5107, #ED5107);
+  background-image: -o-linear-gradient(top, #ED5107, #ED5107);
+  background-image: linear-gradient(to bottom, #ED5107, #ED5107);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #F89D13;
+  background-image: -webkit-linear-gradient(top, #F89D13, #F89D13);
+  background-image: -moz-linear-gradient(top, #F89D13, #F89D13);
+  background-image: -ms-linear-gradient(top, #F89D13, #F89D13);
+  background-image: -o-linear-gradient(top, #F89D13, #F89D13);
+  background-image: linear-gradient(to bottom, #F89D13, #F89D13);
+  text-decoration: none;
+}
+
+.copyright {
+  color: #ED5107;
+  font-size: 0.75rem;
+}
+
+.copyright:hover {
+  color: black;
+}
+
+/* Icons */
+.instagram-icon {
+  color: Black;
+}
+.linkedin-icon {
+  color: Black;
+}
+.facebook-icon {
+  color: Black;
+}
