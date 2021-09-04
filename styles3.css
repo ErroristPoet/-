@@ -147,7 +147,8 @@ color: #F89D13;
   max-width: 25%;
 }
 .teddy-eye {
-  width: 40%;
+  max-width: 40%;
+  padding-bottom: 5%;
 }
 
 /* Footer */
