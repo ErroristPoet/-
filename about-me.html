@@ -2,14 +2,37 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <link rel="stylesheet" type="text/css" href="styles3.css">
+  <!-- favicon -->
   <link rel="icon" href="favicon.ico">
+  <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Creepster&family=Merriweather&display=swap" rel="stylesheet">
-  <title>Paul F Donnelly</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <!-- My Stylesheet -->
+  <link rel="stylesheet" type="text/css" href="styles3.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
- </head>
+  <title>Paul F Donnelly</title>
+</head>
+<nav class="navbar">
+  <a class="navbar-brand" href="index.html" style="color: Black">
+    <h5 class="h5font"></h5>
+  </a>
+  <ul class="nav nav-tabs">
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false" style="color: black">Index</a>
+      <ul class="dropdown-menu">
+        <li> <a class="dropdown-item" href="#myskills">Skills</a></li>
+        <li> <a class="dropdown-item" href="#myworkexp">Work Experience</a></li>
+        <li> <a class="dropdown-item" href="#contact-me">Contact</a></li>
+      </ul>
+    <li class="nav-item"><a class="nav-link" href="https://paulfdonnelly.com/index.html" style="color: Black">𝚷ΩΣΜ</a></li>
+    <li class="nav-item"><a class="nav-link" href="https://paulfdonnelly.com/other-poetry.html" style="color: Black">Other Poetry</a></li>
+  </ul>
+</nav>
+
 <body>
   <div class="top-container">
     <h1>I'm Paul.</h1>
@@ -25,40 +48,116 @@
     </div>
     <hr>
     <div class="skills">
-      <h2>My Skills.</h2>
+      <h2 id="myskills">My Skills.</h2>
       <div class="skill-row">
         <img class="webdevskill" src="webdevskill.png">
         <h3>Coding</h3>
         <p>Nothing gives me more pleasure than grokking a new language.</p>
+        <table cellspacing="10" class="coding-table">
+          <tr>
+            <td>HTML5</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>CSS3</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Bootstrap</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>JavaScript</td>
+            <td>⭐⭐</td>
+          </tr>
+        </table>
       </div>
       <div class="skill-row">
-          <img class="teddy-eye" src="teddy-eye.jpg" alt="Vibrant blue-green cat's eye">
-          <h3>Photography</h3>
-          <p>I love shooting macro photography of eyes, insects, flowers and various interesting objects.</p>
-        </div>
-        <br>
-        <div class="skill-row">
-          <img class="poem-img" src="poem-img.png" alt="mathematical symbols resembling the word poem">
-          <h3>Poetry</h3>
-          <p>I love to be creative and channel my optimistic nature into Utopian Sci-fi poetry.</p>
-        </div>
-      </div>
-      <hr>
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>Add me on Instagram, or send me an e-mail.</h3>
-        <p>I look forward to hearing from you soon!</p>
-        <br>
-        <a class="btn" href="mailto:donnelly.pf@gmail.com">CONTACT ME</a>
-      </div>
-    </div>
+        <img class="teddy-eye" src="teddy-eye.jpg" alt="Vibrant blue-green cat's eye">
+        <h3>Photography</h3>
+        <p>I love shooting macro photography of eyes, insects, flowers and various interesting objects.</p>
+        <table class="photography-table" cellspacing="10">
+          <tr>
+            <td>Macro Photography</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Urban Photography</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
 
-    <div class="bottom-container">
-      <a class="footer-link" href="https://www.linkedin.com/in/paul-donnelly-831866140/">LinkedIn</a>
-      <a class="footer-link" href="https://www.instagram.com/paulfdonnelly/?">Instagram</a>
-      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
-      <p class="copyright">© 2021 Paul Donnelly.</p>
+          <tr>
+            <td>Portrait Photography</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Astrophotography</td>
+            <td>⭐</td>
+          </tr>
+        </table>
+      </div>
+      <br>
+      <div class="skill-row">
+        <img class="poem-img" src="poem-img.png" alt="mathematical symbols resembling the word poem">
+        <h3>Poetry</h3>
+        <p>I love to be creative and channel my optimistic nature into Utopian Sci-fi poetry.</p>
+      </div>
     </div>
+    <hr>
+
+    <h2 id="myworkexp">My Work Experience</h2>
+    <table class="workexp" cellspacing="10">
+      <tr>
+        <td>Securitas - Data Centre Security</td>
+        <td>June 2021 - Present</td>
+      </tr>
+      <tr>
+        <td>Corsec Services - Security Investigator</td>
+        <td>November 2019 - February 2021</td>
+      </tr>
+      <tr>
+        <td>Corsec Services - Security Officer</td>
+        <td>May 2017 - November 2019</td>
+      </tr>
+      <tr>
+        <td>Scene To Believe - Photographer</td>
+        <td>November 2018 - December 2018</td>
+      </tr>
+      <tr>
+        <td>Wilson Security - Security Officer</td>
+        <td>February 2015 - February 2017</td>
+      </tr>
+      <tr>
+        <td>BUPA Care Services - Personal Care Assistant</td>
+        <td>January 2012 - January 2014</td>
+      </tr>
+      <tr>
+        <td>ADF Group - Security Officer</td>
+        <td>March 2006 - March 2009</td>
+      </tr>
+      <tr>
+        <td>Engraving Plus - Apprentice Footwear Repairer</td>
+        <td>January 2004 - March 2005</td>
+      </tr>
+    </table>
+    <hr>
+    <h2>Skills</h2>
+
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>Add me on Instagram, or send me an e-mail.</h3>
+      <p>I look forward to hearing from you soon!</p>
+      <br>
+      <a class="btn" href="mailto:donnelly.pf@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/paul-donnelly-831866140/">LinkedIn</a>
+    <a class="footer-link" href="https://www.instagram.com/paulfdonnelly/?">Instagram</a>
+    <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+    <p class="copyright">© 2021 Paul Donnelly.</p>
+  </div>
 
   </div>
 </body>
