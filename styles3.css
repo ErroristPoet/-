@@ -44,6 +44,42 @@ a:hover {
   color: black;
 }
 
+/* Navigation Bar */
+
+.navbar {
+  background-color: #F89D13 !important;
+}
+.nav-tabs {
+    border-bottom: none;
+}
+.dropdown-menu {
+background-color: #000000;
+border: 1px solid #000000;
+}
+.navlink:hover {
+  border: solid Black !important;
+}
+.dropdown-menu a{
+color: #F89D13;
+}
+.dropdown-menu a:hover{
+  background-color: #F89D13;
+  color: black;
+  border: none;
+}
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.navbar-default .navbar-toggle:hover {
+  border-color: black !important;
+}
+
+/* Intro */
+
 .top-container {
   background-color: #F89D13;
   position: relative;
@@ -55,6 +91,8 @@ a:hover {
   width: 30%;
   margin: auto;
 }
+
+/* Body */
 
 .middle-container {
   background-color: black;
@@ -150,31 +188,7 @@ a:hover {
 .copyright:hover {
   color: black;
 }
-.navbar {
-  background-color: #F89D13 !important;
-}
-.nav-tabs {
-    border-bottom: none;
-}
-.dropdown-menu {
-background-color: #000000;
-border: 1px solid #000000;
-}
-.navlink:hover {
-  border: solid Black !important;
-}
-.dropdown-menu a{
-color: #F89D13;
-}
-.dropdown-menu a:hover{
-  background-color: #F89D13;
-  color: black;
-  border: none;
-}
 
-.navbar-default .navbar-toggle:hover {
-  border-color: black !important;
-}
 /* Icons */
 .instagram-icon {
   color: Black;
