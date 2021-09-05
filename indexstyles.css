@@ -1,27 +1,33 @@
+/* Body */
+
 div {
   font-family: "Times New Roman";
 
 }
-h2 {
-  font-family: "Times New Roman";
-}
-nav {
-  font-family: "Times New Roman";
-  font-weight: bold;
-  font-size: 16px;
-}
-h5font {
-  font-family: "Times New Roman";
-}
+
+/* Headings */
+
 h1 {
   font-size: 50px;
   text-align: center;
 }
 
-.dropdown-menu { 
+h2, .h5font {
+  font-family: "Times New Roman";
+}
+
+/* Navigation Bar */
+
+nav {
+  font-family: "Times New Roman";
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.dropdown-menu {
 background-color: #FFF8DC;
 }
 
-.dropdown-menu a{ 
-color: #000000; 
+.dropdown-menu a{
+color: #000000;
 }
