@@ -163,28 +163,13 @@ color: #F89D13;
 /* Buttons */
 .btn {
   background: #ED5107;
-  background-image: -webkit-linear-gradient(top, #ED5107, #ED5107);
-  background-image: -moz-linear-gradient(top, #ED5107, #ED5107);
-  background-image: -ms-linear-gradient(top, #ED5107, #ED5107);
-  background-image: -o-linear-gradient(top, #ED5107, #ED5107);
-  background-image: linear-gradient(to bottom, #ED5107, #ED5107);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
-  border-radius: 28px;
-  font-family: Georgia;
+  font-family: "Merriweather";
   color: #000000;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
 
 .btn:hover {
   background: #F89D13;
-  background-image: -webkit-linear-gradient(top, #F89D13, #F89D13);
-  background-image: -moz-linear-gradient(top, #F89D13, #F89D13);
-  background-image: -ms-linear-gradient(top, #F89D13, #F89D13);
-  background-image: -o-linear-gradient(top, #F89D13, #F89D13);
-  background-image: linear-gradient(to bottom, #F89D13, #F89D13);
   text-decoration: none;
 }
 
