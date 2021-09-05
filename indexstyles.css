@@ -2,20 +2,26 @@
 
 div {
   font-family: "Times New Roman";
-
 }
 
 /* Headings */
 
 h1 {
-  font-size: 50px;
+  font-size: 5rem;
   text-align: center;
 }
-
-h2, .h5font {
+h2 {
+  font-size: 2rem;
+}
+.h5font {
   font-family: "Times New Roman";
 }
-
+.intro-heading, .intro-para {
+  text-align: center;
+}
+.intro-para {
+  font-size: 1.5rem;
+}
 /* Navigation Bar */
 
 nav {
@@ -30,4 +36,11 @@ background-color: #FFF8DC;
 
 .dropdown-menu a{
 color: #000000;
+}
+
+footer {
+  font-family: "Times New Roman";
+  background-color: Black;
+  Color: Cornsilk;
+  text-align: center;
 }
