@@ -4,17 +4,17 @@ div {
 }
 
 #main1 {
-  padding-top: 15rem;
+  padding-top:  15%;
 }
 
 .intro-heading {
-  padding-top: 15rem;
-  padding-bottom: 15rem;
+  padding-top: 25%;
+  padding-bottom: 25%;
 }
 
 .intro-para {
-  padding-top: 5rem;
-  padding-bottom: 15rem;
+  padding-top: 0;
+  padding-bottom: 25%;
 }
 
 /* Headings */
