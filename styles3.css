@@ -1,65 +1,194 @@
-/* Body */
-div {
-  font-family: "Times New Roman";
-}
-
-#main1 {
-  padding-top: 10%;
-}
-
-.intro-heading {
-  padding-top: 30%;
-  padding-bottom: 15%;
-}
-
-.intro-para {
-  padding-top:15%;
-  padding-bottom: 25%;
-}
-
-/* Headings */
-h1 {
-  font-size: 5rem;
+body {
+  margin: 0;
   text-align: center;
+  font-family: verdana, sans-serif;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin-top: 50px;
+  font-family: 'Creepster', 'Times New Roman';
+  font-size: 5.625em;
+  line-height: 2;
+  color: black;
 }
 
 h2 {
-  font-size: 2rem;
+  font-family: 'Merriweather', serif;
+  font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
-  padding-bottom: 5%;
-}
-.h5font {
-  font-family: "Times New Roman";
+  font-family: 'Merriweather', serif;
 }
 
-.intro-heading, .intro-para {
-  text-align: center;
+p {
+  line-height: 2;
 }
 
-.intro-para {
-  font-size: 1.5rem;
+hr {
+  border: dotted #ED5107;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+}
+
+a {
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
 }
 
 /* Navigation Bar */
-nav {
-  font-family: "Times New Roman";
-  font-weight: bold;
-  font-size: 16px;
-}
 
+.navbar {
+  background-color: #F89D13 !important;
+}
+.nav-tabs {
+    border-bottom: none;
+}
 .dropdown-menu {
-  background-color: #FFF8DC;
+background-color: #000000;
+border: 1px solid #000000;
+}
+.navlink:hover {
+  border: solid Black !important;
+}
+.dropdown-menu a{
+color: #F89D13;
+}
+.dropdown-menu a:hover{
+  background-color: #F89D13;
+  color: black;
+  border: none;
+}
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+.navbar-default .navbar-toggle:hover {
+  border-color: black !important;
 }
 
-.dropdown-menu a {
-  color: #000000;
+/* Intro */
+
+.top-container {
+  background-color: #F89D13;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 150px;
 }
 
-footer {
-  font-family: "Times New Roman";
-  background-color: Black;
-  Color: Cornsilk;
+.intro {
+  width: 45%;
+  margin: auto;
+}
+
+/* Body */
+
+.middle-container {
+  background-color: black;
+  color: #F89D13;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.bottom-container {
+  color: black;
+  background-color: #F89D13;
+  padding: 50px 0 20px;
+}
+
+.webdeveloper {
+  text-decoration: underline;
+}
+
+
+/* Tables */
+.photography-table {
   text-align: center;
+  margin: auto;
+  border-spacing: 5px;
+}
+.coding-table {
+  text-align: center;
+  margin: auto;
+  border-spacing: 5px;
+}
+.workexp {
+  margin: auto;
+  text-align: left;
+  text-align: center;
+  border-spacing: 5px;
+  border: dotted #ED5107;
+}
+.workexp td {
+  border: dotted #ED5107;
+}
+/* Images */
+
+
+.skeleton-hand {
+  position: absolute;
+  float: right;
+  max-width: 50%;
+  height: auto;
+}
+.me {
+  padding-top: 35px;
+  max-width: 25%;
+}
+.teddy-eye {
+  max-width: 40%;
+  padding-bottom: 5%;
+}
+
+/* Footer */
+.footer-link {
+  color: #ED5107;
+}
+
+.contact-me {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+/* Buttons */
+.btn {
+  background: #ED5107;
+  font-family: "Merriweather";
+  color: #000000;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #F89D13;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #ED5107;
+  font-size: 0.75rem;
+}
+
+.copyright:hover {
+  color: black;
+}
+
+/* Icons */
+.instagram-icon {
+  color: Black;
+}
+.linkedin-icon {
+  color: Black;
+}
+.facebook-icon {
+  color: Black;
 }
