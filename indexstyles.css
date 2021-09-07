@@ -1,6 +1,7 @@
 /* Body */
 div {
   font-family: "Times New Roman";
+  text-align: center;
 }
 
 #main1 {
@@ -20,7 +21,6 @@ div {
 /* Headings */
 h1 {
   font-size: 5rem;
-  text-align: center;
 }
 
 h2 {
@@ -32,10 +32,6 @@ h3 {
 }
 .h5font {
   font-family: "Times New Roman";
-}
-
-.intro-heading, .intro-para {
-  text-align: center;
 }
 
 .intro-para {
