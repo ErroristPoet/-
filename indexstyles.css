@@ -1,38 +1,46 @@
 /* Body */
-
 div {
   font-family: "Times New Roman";
 }
-#main1 {
-  padding-top: 20%;
-  padding-bottom:10%;
-}
-.intro-heading {
-  padding-bottom: 5%;
-}
-.intro-para {
-  padding-bottom: 5%;
-}
-/* Headings */
 
+#main1 {
+  padding-top: 12.5%;
+  padding-bottom: 5%;
+}
+
+.intro-heading {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.intro-para {
+  padding-top: 5%;
+  padding-bottom: 10%;
+}
+
+/* Headings */
 h1 {
   font-size: 5rem;
   text-align: center;
 }
+
 h2 {
   font-size: 2rem;
 }
+
 .h5font {
   font-family: "Times New Roman";
 }
+
 .intro-heading, .intro-para {
   text-align: center;
 }
+
 .intro-para {
   font-size: 1.5rem;
 }
-/* Navigation Bar */
 
+/* Navigation Bar */
 nav {
   font-family: "Times New Roman";
   font-weight: bold;
@@ -40,11 +48,11 @@ nav {
 }
 
 .dropdown-menu {
-background-color: #FFF8DC;
+  background-color: #FFF8DC;
 }
 
-.dropdown-menu a{
-color: #000000;
+.dropdown-menu a {
+  color: #000000;
 }
 
 footer {
