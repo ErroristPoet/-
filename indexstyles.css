@@ -3,7 +3,16 @@
 div {
   font-family: "Times New Roman";
 }
-
+#main1 {
+  padding-top: 20%;
+  padding-bottom:10%;
+}
+.intro-heading {
+  padding-bottom: 5%;
+}
+.intro-para {
+  padding-bottom: 5%;
+}
 /* Headings */
 
 h1 {
