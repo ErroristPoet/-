@@ -4,18 +4,17 @@ div {
 }
 
 #main1 {
-  padding-top: 12.5%;
-  padding-bottom: 5%;
+  padding-top: 15rem;
 }
 
 .intro-heading {
-  padding-top: 5%;
-  padding-bottom: 5%;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
 }
 
 .intro-para {
-  padding-top: 5%;
-  padding-bottom: 10%;
+  padding-top: 5rem;
+  padding-bottom: 15rem;
 }
 
 /* Headings */
@@ -28,6 +27,9 @@ h2 {
   font-size: 2rem;
 }
 
+h3 {
+  padding-bottom: 5%;
+}
 .h5font {
   font-family: "Times New Roman";
 }
