@@ -30,6 +30,7 @@ h2 {
 h3 {
   padding-bottom: 5%;
 }
+
 .h5font {
   font-family: "Times New Roman";
 }
@@ -47,7 +48,7 @@ nav {
 }
 
 .dropdown-menu {
-  background-color: #FFF8DC;
+  background-color: #fff;
 }
 
 .dropdown-menu a {
