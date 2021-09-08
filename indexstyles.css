@@ -47,7 +47,7 @@ h3 {
   position: absolute;
 }
 .nav-tabs {
-  position: absolute;
+  position: relative;
 }
 
 nav {
