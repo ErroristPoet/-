@@ -46,6 +46,8 @@ h3 {
   left: 50%;
   position: absolute;
 }
+.nav-tabs {
+  position: absolute;
 }
 
 nav {
