@@ -27,10 +27,13 @@ p {
 }
 
 hr {
-  border: dotted #ED5107;
+  border: dotted;
+  color: #ED5107;
+  background-color: #ED5107;
   border-bottom: none;
-  width: 5%;
-  margin: 100px auto;
+  margin: 150px auto;
+  width: 25%;
+  opacity: 1;
 }
 
 a {
