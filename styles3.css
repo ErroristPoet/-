@@ -82,15 +82,16 @@ color: #F89D13;
 
 /* Intro */
 
-.awebdeveloper {
-  padding-bottom: 10%;
-}
-
 .top-container {
   background-color: #F89D13;
   position: relative;
-  padding-top: 35%;
-  padding-bottom: 40%;
+  height: 90vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .top-container {
+    height: 70vh;
+  }
 }
 
 .intro {
@@ -116,7 +117,6 @@ color: #F89D13;
 .webdeveloper {
   text-decoration: underline;
 }
-
 
 /* Tables */
 .photography-table {
@@ -146,8 +146,6 @@ color: #F89D13;
   position: absolute;
   float: right;
   max-width: 50%;
-  height: auto;
-  padding-top: 10%;
 }
 .me {
   padding-top: 35px;

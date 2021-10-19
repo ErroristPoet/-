@@ -1,0 +1,117 @@
+/* Navbar */
+.topnav {
+  background-color: #e3dac9;
+  overflow: hidden;
+  font-family: "Roboto";
+  display: flex;
+  justify-content: center;
+}
+
+.topnav a {
+  color: #6699FF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #CDBFAC;
+  color: black;
+}
+
+/* Fonts */
+.title {
+  font-family: "IM Fell English SC";
+  text-align: center;
+  font-size: 3rem;
+}
+
+.body {
+  font-family: "Roboto";
+  color:  #154890;
+}
+
+/* Body */
+body {
+  background-color: #e3dac9;
+  text-align: center;
+}
+/* Footer */
+footer {
+  color: #6699FF;
+  padding-top: 25px;
+  font-family: "Roboto";
+}
+
+/* Images */
+.image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.5;
+  width: 95%;
+  height: 95%;
+  padding-bottom: 15px;
+}
+.image:hover {
+  opacity: 1;
+}
+.tomas-kalnoky {
+  width: 300px;
+  height: 200px;
+}
+.jim-konti {
+  width: 300px;
+  height: 200px;
+}
+.chris-thatcher {
+  width: 300px;
+  height: 200px;
+}
+.mike-brown {
+  width: 300px;
+  height: 200px;
+}
+.pete-mccullough {
+  width: 300px;
+  height: 200px;
+}
+.matt-stewart {
+  width: 300px;
+  height: 200px;
+}
+.karl-lyden {
+  width: 300px;
+  height: 300px;
+}
+.dan-ross {
+  width: 300px;
+  height: 300px;
+}
+.the_hands_that_thieve {
+  width: 300px;
+  height: 300px;
+}
+.songs {
+  width: 300px;
+  height: 300px;
+}
+.Somewhere {
+  width: 300px;
+  height: 300px;
+}
+/* Lists */
+ul {
+  display: inline-block;
+  list-style-type: square;
+}
+ol {
+  display: inline-block;
+  list-style-type: upper-roman;
+}
