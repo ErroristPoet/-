@@ -84,6 +84,11 @@ color: #F89D13;
   background-color: #F89D13;
   height: 90vh;
 }
+@media (min-height: 750px) {
+  .top-container {
+    height: 60vh;
+  }
+}
 
 .intro {
   width: 45%;
