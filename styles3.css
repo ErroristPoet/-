@@ -91,7 +91,7 @@ color: #F89D13;
 }
 
 .paulie {
-  padding-top: 150px;
+  padding-top: 100px;
 }
 
 /* Body */
@@ -99,7 +99,7 @@ color: #F89D13;
 .middle-container {
   background-color: black;
   color: #F89D13;
-  padding-top: 100px;
+  padding-top: 75px;
   padding-bottom: 100px;
   width: 100%;
   position: relative;
@@ -140,12 +140,15 @@ color: #F89D13;
 
 .skeleton-hand {
   position: relative;
-  float: right;
   width: 250px;
+  bottom: 1px;
 }
 .me {
-  padding-top: 35px;
-  width: 25%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 200px;
+  position: relative;
 }
 .teddy-eye {
   max-width: 40%;
