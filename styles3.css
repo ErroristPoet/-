@@ -90,13 +90,17 @@ color: #F89D13;
 
 @media only screen and (max-width: 600px) {
   .top-container {
-    height: 70vh;
+    height: 80vh;
   }
 }
 
 .intro {
   width: 45%;
   margin: auto;
+}
+
+.paulie {
+  padding-top: 30%;
 }
 
 /* Body */
