@@ -83,15 +83,8 @@ color: #F89D13;
 /* Intro */
 
 .top-container {
-  background-color: #F89D13;
-  position: relative;
   height: 90vh;
-}
-
-@media only screen and (max-width: 600px) {
-  .top-container {
-    height: 80vh;
-  }
+  background-color: #F89D13;
 }
 
 .intro {
@@ -150,6 +143,7 @@ color: #F89D13;
   position: absolute;
   float: right;
   max-width: 50%;
+  bottom: 0;
 }
 .me {
   padding-top: 35px;
