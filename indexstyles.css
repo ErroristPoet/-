@@ -38,17 +38,15 @@
   to   { opacity: 1; }
 }
 
-#title-screen {
+.title-screen {
 display: flex;
 flex-direction: column;
-
 flex-wrap: nowrap;
 justify-content: flex-start;
 align-items: stretch;
 align-content: stretch;
 
 height: 100%;
-padding-top: 2%;
 }
 
 
@@ -116,7 +114,7 @@ color: #000000;
 .dropdown-menu a:hover {
   background-color: black;
   color:white;
-  
+
 }
 footer {
 font-family: "Times New Roman";
