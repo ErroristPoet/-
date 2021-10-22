@@ -109,9 +109,9 @@ a:hover {
   padding-top: 100px;
 }
 
-@media only screen and (min-height: 800px) {
+@media only screen and (min-width: 800px) {
   .paulie {
-    padding-top: 250px;
+    padding-top: 200px;
   }
 }
 
@@ -198,19 +198,17 @@ a:hover {
 
 /* Images */
 .skeleton-hand {
-  position: absolute;
+  position: relative;
   bottom: 0;
 }
-@media only screen and (max-width: 1080px) {
+
+@media only screen and (min-width: 1601px) {
   .skeleton-hand {
-    position: relative;
-  }
-}
-@media only screen and (min-width: 1081px) {
-  .skeleton-hand {
+    position: absolute;
     width: 250px;
   }
 }
+
 .me {
   display: block;
   margin-right: auto;
