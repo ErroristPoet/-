@@ -1,9 +1,9 @@
 /* Fonts */
-body {
+body, h2, h3 {
   margin: 0;
-  text-align: center;
-  font-family: verdana, sans-serif;
   font-family: 'Merriweather', serif;
+  font-weight: normal;
+  text-align: center;
 }
 
 h1 {
@@ -14,19 +14,20 @@ h1 {
 }
 
 h2 {
-  font-family: 'Merriweather', serif;
-  font-weight: normal;
   padding-bottom: 10px;
-}
-
-h3 {
-  font-family: 'Merriweather', serif;
 }
 
 p {
   line-height: 2;
 }
 
+a {
+  font-family: 'Merriweather', serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+/* Horizontal Lines */
 hr {
   border: dotted;
   color: #ED5107;
@@ -36,17 +37,11 @@ hr {
   opacity: 1;
 }
 
-a {
-  font-family: 'Merriweather', serif;
-  margin: 10px 20px;
-  text-decoration: none;
-}
-
+/* Navigation Bar */
 a:hover {
   color: black;
 }
 
-/* Navigation Bar */
 .navbar {
   background-color: #F89D13;
 }
@@ -92,12 +87,13 @@ a:hover {
   color: black;
 }
 
-/* Intro */
-.top-container {
+/* Intro Container */
+.intro-container {
   background-color: #F89D13;
-  height: 90vh;
-  position: relative;
+  height: 100%;
   text-align: center;
+  position: relative;
+
 }
 
 .intro {
@@ -109,14 +105,9 @@ a:hover {
   padding-top: 100px;
 }
 
-@media only screen and (min-width: 800px) {
-  .paulie {
-    padding-top: 200px;
-  }
-}
+/* Skills Container */
 
-/* Body */
-.middle-container {
+.skills-container {
   background-color: black;
   color: #F89D13;
   padding-top: 75px;
@@ -135,7 +126,22 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Accordion */
+/* Skills Carousel */
+.photography-table, .coding-table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='orange' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='orange' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+/* Experience Accordion */
 .accordion-button {
   background-color: #F89D13;
   color: black;
@@ -182,29 +188,11 @@ a:hover {
   list-style-position: inside;
 }
 
-/* Carousel */
-.photography-table, .coding-table {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.carousel-control-next-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='orange' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-}
-
-.carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='orange' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-}
-
 /* Images */
-.skeleton-hand {
-  position: relative;
-  bottom: 0;
-}
-
 @media only screen and (min-width: 1601px) {
   .skeleton-hand {
     position: absolute;
+    bottom: 0;
     width: 250px;
   }
 }
@@ -226,7 +214,7 @@ a:hover {
   color: #ED5107;
 }
 
-.contact-me {
+.contact-me-container {
   width: 60%;
   margin: 40px auto 60px;
 }
