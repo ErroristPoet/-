@@ -100,165 +100,171 @@ a:hover {
   text-align: center;
 }
 
-  .intro {
-    width: 45%;
-    margin: auto;
-  }
+.intro {
+  width: 45%;
+  margin: auto;
+}
 
+.paulie {
+  padding-top: 100px;
+}
+
+@media only screen and (min-height: 800px) {
   .paulie {
-    padding-top: 100px;
+    padding-top: 250px;
   }
 
-  @media only screen and (min-height: 1079px) {
-    .paulie {
-      padding-top: 300px;
-    }
-  }
-@media only screen and (max-width: 414px) {
   .skeleton-hand {
-    width: 50%;
+    width: 170px;
   }
 }
-  /* Body */
-  .middle-container {
-    background-color: black;
-    color: #F89D13;
-    padding-top: 75px;
-    padding-bottom: 100px;
-    width: 100%;
-    position: relative;
-  }
 
-  .bottom-container {
-    color: black;
-    background-color: #F89D13;
-    padding: 50px 0 20px;
-  }
-
-  .webdeveloper {
-    text-decoration: underline;
-  }
-
-  /* Accordion */
-  .accordion-button {
-    background-color: #F89D13;
-    color: black;
-  }
-
-  .accordion-button[aria-expanded="true"] {
-    background-color: #F89D13;
-    color: black;
-  }
-
-  .accordion-button:focus {
-    background-color: #F89D13;
-    color: black;
-  }
-
-  .accordion-button:hover {
-    background-color: black;
-    color: #F89D13;
-  }
-
-  .accordion-button:active {
-    border: none;
-  }
-
-  .accordion-button.collapsed::after {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-  }
-
-  .accordion-button:not(.collapsed)::after {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ED5107'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
-    transform: rotate(-180deg)
-  }
-
-  .accordion-body {
-    background-color: black;
-  }
-
-  .accordion-item {
-    background-color: black;
-  }
-
-  .workExpUl {
-    text-align: left;
-    list-style-position: inside;
-  }
-
-  /* Carousel */
-  .photography-table, .coding-table {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='orange' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-  }
-
-  .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='orange' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-  }
-
-  /* Images */
+@media only screen and (max-width: 414px) {
   .skeleton-hand {
-    position: absolute;
-    bottom: 0;
+    max-width: 45%;
   }
+}
 
-  .me {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
-  }
+/* Body */
+.middle-container {
+  background-color: black;
+  color: #F89D13;
+  padding-top: 75px;
+  padding-bottom: 100px;
+  width: 100%;
+  position: relative;
+}
 
-  .teddy-eye {
-    max-width: 40%;
-    padding-bottom: 5%;
-  }
+.bottom-container {
+  color: black;
+  background-color: #F89D13;
+  padding: 50px 0 20px;
+}
 
-  /* Footer */
-  .footer-link {
-    color: #ED5107;
-  }
+.webdeveloper {
+  text-decoration: underline;
+}
 
-  .contact-me {
-    width: 60%;
-    margin: 40px auto 60px;
-  }
+/* Accordion */
+.accordion-button {
+  background-color: #F89D13;
+  color: black;
+}
 
-  /* Buttons */
-  .btn {
-    background: #ED5107;
-    font-family: "Merriweather";
-    color: #000000;
-    text-decoration: none;
-  }
+.accordion-button[aria-expanded="true"] {
+  background-color: #F89D13;
+  color: black;
+}
 
-  .btn:hover {
-    background: #F89D13;
-    text-decoration: none;
-  }
+.accordion-button:focus {
+  background-color: #F89D13;
+  color: black;
+}
 
-  .copyright {
-    color: #ED5107;
-    font-size: 0.75rem;
-  }
+.accordion-button:hover {
+  background-color: black;
+  color: #F89D13;
+}
 
-  .copyright:hover {
-    color: black;
-  }
+.accordion-button:active {
+  border: none;
+}
 
-  /* Icons */
-  .instagram-icon {
-    color: Black;
-  }
+.accordion-button.collapsed::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
 
-  .linkedin-icon {
-    color: Black;
-  }
+.accordion-button:not(.collapsed)::after {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ED5107'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  transform: rotate(-180deg)
+}
 
-  .facebook-icon {
-    color: Black;
-  }
+.accordion-body {
+  background-color: black;
+}
+
+.accordion-item {
+  background-color: black;
+}
+
+.workExpUl {
+  text-align: left;
+  list-style-position: inside;
+}
+
+/* Carousel */
+.photography-table, .coding-table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='orange' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='orange' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+/* Images */
+.skeleton-hand {
+  position: absolute;
+  bottom: 0;
+}
+
+.me {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.teddy-eye {
+  max-width: 40%;
+  padding-bottom: 5%;
+}
+
+/* Footer */
+.footer-link {
+  color: #ED5107;
+}
+
+.contact-me {
+  width: 60%;
+  margin: 40px auto 60px;
+}
+
+/* Buttons */
+.btn {
+  background: #ED5107;
+  font-family: "Merriweather";
+  color: #000000;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #F89D13;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #ED5107;
+  font-size: 0.75rem;
+}
+
+.copyright:hover {
+  color: black;
+}
+
+/* Icons */
+.instagram-icon {
+  color: Black;
+}
+
+.linkedin-icon {
+  color: Black;
+}
+
+.facebook-icon {
+  color: Black;
+}
