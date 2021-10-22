@@ -114,7 +114,11 @@ a:hover {
       padding-top: 300px;
     }
   }
-
+@media only screen and (max-width: 414px) {
+  .skeleton-hand {
+    width: 50%;
+  }
+}
   /* Body */
   .middle-container {
     background-color: black;
@@ -198,8 +202,8 @@ a:hover {
 
   /* Images */
   .skeleton-hand {
-    position: relative;
-    width: 175px;
+    position: absolute;
+    bottom: 0;
   }
 
   .me {
