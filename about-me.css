@@ -188,6 +188,10 @@ a:hover {
   list-style-position: inside;
 }
 
+:focus, :active, :visited {
+  outline: 0 !important;
+}
+
 /* Images */
 @media only screen and (min-width: 1601px) {
   .skeleton-hand {
