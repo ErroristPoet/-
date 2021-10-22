@@ -86,6 +86,8 @@ a:hover {
 .top-container {
   background-color: #F89D13;
   height: 90vh;
+  position: relative;
+  text-align: center;
 }
 
 @media (min-height: 750px) {
@@ -178,15 +180,13 @@ a:hover {
 /* Images */
 .skeleton-hand {
   position: relative;
-  max-width: 30%;
-  bottom: 1px;
+  width: 175px;
 }
 
 .me {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 200px;
   position: relative;
 }
 
