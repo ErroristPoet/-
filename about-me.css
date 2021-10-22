@@ -109,10 +109,11 @@ a:hover {
     padding-top: 100px;
   }
 
-  @media screen and (min-height: 1079px) {
+  @media only screen and (min-height: 1079px) {
     .paulie {
-      padding-top: 400px;
+      padding-top: 300px;
     }
+  }
 
   /* Body */
   .middle-container {
