@@ -85,8 +85,13 @@ a:hover {
 /* Intro */
 .top-container {
   background-color: #F89D13;
-  height: 100vh;
-  position: relative;
+  height: 90vh;
+}
+
+@media (min-height: 750px) {
+  .top-container {
+    height: 60vh;
+  }
 }
 
 .intro {
@@ -95,7 +100,7 @@ a:hover {
 }
 
 .paulie {
-  padding-top: 50%;
+  padding-top: 100px;
 }
 
 /* Body */
@@ -172,10 +177,9 @@ a:hover {
 
 /* Images */
 .skeleton-hand {
-  position: absolute;
-  bottom: 0;
-  text-align: center;
+  position: relative;
   max-width: 30%;
+  bottom: 1px;
 }
 
 .me {
