@@ -113,16 +113,6 @@ a:hover {
   .paulie {
     padding-top: 250px;
   }
-
-  .skeleton-hand {
-    width: 170px;
-  }
-}
-
-@media only screen and (max-width: 414px) {
-  .skeleton-hand {
-    max-width: 45%;
-  }
 }
 
 /* Body */
@@ -211,7 +201,16 @@ a:hover {
   position: absolute;
   bottom: 0;
 }
-
+@media only screen and (max-width: 1080px) {
+  .skeleton-hand {
+    position: relative;
+  }
+}
+@media only screen and (min-width: 1081px) {
+  .skeleton-hand {
+    width: 250px;
+  }
+}
 .me {
   display: block;
   margin-right: auto;
