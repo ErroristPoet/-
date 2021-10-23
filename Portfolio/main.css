@@ -131,6 +131,8 @@ a:hover {
 }
 
 /* Skills Carousel */
+
+.skills {}
 .photography-table, .coding-table {
   margin-left: auto;
   margin-right: auto;
@@ -146,6 +148,12 @@ a:hover {
 }
 
 /* Experience Accordion */
+
+.experience-container {
+  background-color: black;
+  color: #F89D13;
+  padding-top: 40px;
+}
 .accordion-button {
   background-color: #F89D13;
   color: black;
@@ -266,5 +274,9 @@ a:hover {
 }
 
 .facebook-icon {
+  color: Black;
+}
+
+.github-icon {
   color: Black;
 }
