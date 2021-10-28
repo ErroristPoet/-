@@ -16,7 +16,6 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
-  overflow: scroll;
 }
 
 .dropdown-content {
@@ -132,7 +131,6 @@ body {
 .main, .poems {
   text-align: center;
 }
-
 
 .back-to-top {
   background-color: white;
