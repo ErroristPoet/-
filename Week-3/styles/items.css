@@ -1,0 +1,9 @@
+.items-section {
+  display: flex;
+  flex-direction: column;
+}
+.items-section img {
+  width: 90vw;
+}
+
+/*# sourceMappingURL=items.css.map */
