@@ -94,6 +94,7 @@
   }
 }
 
+
 /* Opera < 12.1 */
 @-o-keyframes fadein {
   from {
@@ -140,6 +141,11 @@ body {
   padding: 12px;
   cursor: pointer;
   display: inline-block;
+}
+
+.back-to-top:hover {
+  background-color: black;
+  color: white;
 }
 
 /* Headings */
