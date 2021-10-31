@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Paul Donnelly - Skills</title>
+  <link rel="stylesheet" type="text/css" href="../styles/secondary-style.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="dropdown">
+      <button class="dropbtn">Index</button>
+      <div class="dropdown-content">
+        <a href="../index.html">Home</a>
+        <a href="skills.html">Skills</a>
+        <a href="experience.html">Experience</a>
+        <a href="travels.html">Travels</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <a class="poetry-link" href="https://paulfdonnelly.com">Poetry</a>
+    </div>
+  </div>
+  <div class="main">
+    <button class="accordion">Taking photos of Theodore Robocop Megaman Gherkin</button>
+    <div class="panel">
+      <strong>October 29th, 2021</strong>
+    <p>Theodore (or simply Teddy), is one handsome cat. He's slight in weight and equal parts energy and affection. As a burmese, he has strikingly attractive features and beautiful blue-green eyes and I often find myself taken aback in the proper lighting. However, due to the aforementioned energy, he is one tough cookie to photograph. Movement and a seeming awareness of the camera ruin what could have been a good photo. Alas, I have taken a few in my time, for example:<img class="teddy-eye" src="https://paulfdonnelly.com/teddy-eye.jpg" alt="Teddy's Eye"> <caption>Teddy's Eye</caption>
+    </p>
+    </div>
+    <button class="accordion">Soft Skills</button>
+    <div class="panel">
+      <p>Critical Thinking</p>
+      <p>Communication</p>
+      <p>Teamwork</p>
+    </div>
+    <button class="accordion">Photography</button>
+    <div class="panel">
+      <p>Macro</p>
+      <p>Landscape</p>
+      <p>Portrait</p>
+    </div>
+  </div>
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Paul Donnelly - Skills</title>
+  <link rel="stylesheet" type="text/css" href="../styles/secondary-style.css">
+  <!-- Accordion Styles -->
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="dropdown">
+      <button class="dropbtn">Index</button>
+      <div class="dropdown-content">
+        <a href="../index.html">Home</a>
+        <a href="experience.html">Experience</a>
+        <a href="blog.html">Blog</a>
+        <a href="travels.html">Travels</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <a class="poetry-link" href="https://paulfdonnelly.com">Poetry</a>
+    </div>
+  </div>
+  <div class="main">
+    <button class="accordion">Full Stack Development</button>
+    <div class="panel">
+      <p>HTML5</p>
+      <p>CSS3</p>
+      <p>Bootstrap 5</p>
+    </div>
+    <button class="accordion">Soft Skills</button>
+    <div class="panel">
+      <p>Critical Thinking</p>
+      <p>Communication</p>
+      <p>Teamwork</p>
+    </div>
+    <button class="accordion">Photography</button>
+    <div class="panel">
+      <p>Macro</p>
+      <p>Landscape</p>
+      <p>Portrait</p>
+    </div>
+  </div>
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+          panel.style.display = "none";
+        } else {
+          panel.style.display = "block";
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>
