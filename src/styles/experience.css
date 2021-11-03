@@ -12,6 +12,11 @@
   align-items: center;
 }
 
+.workExpUl {
+  text-align: left;
+  font-size: 1rem;
+}
+
 /* Navbar / Dropdown Index Button */
 .navbar {
   width: 100%;
@@ -96,7 +101,7 @@
 .panel {
   text-align: center;
   padding: 0 18px;
-  background-color: black;
+  background-color: #132733;
   display: none;
   overflow: hidden;
   width: 100%;
