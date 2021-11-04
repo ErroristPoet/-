@@ -1,5 +1,4 @@
 /* Body  */
-
 body {
   background-image: url("../images/lady-stkilda.jpg");
   background-position: center;
@@ -11,54 +10,10 @@ body {
 .main {
   color: white;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-/* Travels page */
-.travels-main {
-  background-image: url("../images/lady-stkilda.jpg");
-  background-position: center;
-  height: 100vh;
-}
-
-@media only screen and (max-width: 600px) {
-  .travel1, .travel2, .travel3 {
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-image: url("../images/lady-stkilda.jpg");
-    background-position: center;
-    background-repeat: repeat-y;
-    height: 100vh;
-  }
-}
-
-@media only screen and (min-width: 600px) {
-  .travel1, .travel2, .travel3 {
-    color: white;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-image: url("../images/lady-stkilda.jpg");
-    background-position: center;
-    background-repeat: repeat-y;
-    height: 100vh;
-}
-}
-
-.travel-heading {
-  text-align: center;
-  width: inherit;
-  color: white;
-  background-color: black;
-  margin-top: 0;
-  margin-bottom: 0;
+  flex-direction: column;
+  height: 100%;
 }
 
 /* Blog page  */
@@ -161,15 +116,18 @@ a {
 }
 
 .panel {
+  display: flex;
+  justify-content: center;
   text-align: center;
   padding-top: 18px;
   padding-bottom: 18px;
   background-color: black;
   display: none;
-  overflow: hidden;
   width: 100%;
 }
 
 .workExpUl {
   text-align: left;
+  overflow: scroll;
+  max-height: 200px;
 }
