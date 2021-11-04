@@ -60,7 +60,7 @@
   box-sizing: border-box;
 }
 
-html, body {
+ body {
   height: 100vh;
 }
 
@@ -78,9 +78,7 @@ body {
 .slider {
   height: 80vh;
   position: relative;
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
-  scroll-behavior: smooth;
+  overflow-x: hidden;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -96,7 +94,6 @@ body {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-overflow-scrolling: touch
 }
 
 .slider__nav {
@@ -142,7 +139,7 @@ body {
   top: 0;
   left: 0;
   width: 400%;
-  height: 100vh;
+  height: 50vh;
   -webkit-transition: left 0.4s;
   transition: left 0.4s;
   display: -webkit-box;
