@@ -1,9 +1,6 @@
 /* Body  */
 body {
   height: 100vh;
-}
-
-.main {
   background-image: url("../images/lady-stkilda.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -35,6 +32,7 @@ body {
 
 /* Footer */
 footer {
+  color: white;
   text-align: center;
 }
 
