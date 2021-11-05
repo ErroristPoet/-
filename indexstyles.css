@@ -141,6 +141,24 @@ body {
   height: 80vh;
 }
 
+@media only screen and (max-width: 400px) {
+  .main {
+    display: flex;
+    height: 95vh;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+
+  }
+  intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 90vh;
+  }
+}
+
 .back-to-top {
   background-color: white;
   color: black;
