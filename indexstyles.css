@@ -133,10 +133,11 @@ body {
   text-align: center;
 }
 .intro {
+  vertical-align: top;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 90vh;
+  height: 80vh;
 }
 
 .back-to-top {
