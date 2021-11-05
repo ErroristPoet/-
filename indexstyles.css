@@ -124,9 +124,6 @@ body {
 .main {
   display: flex;
   height: 100vh;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: center;
 }
 
 .poems {
