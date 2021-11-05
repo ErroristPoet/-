@@ -123,21 +123,19 @@ body {
 }
 
 .main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+  display: block;
   height: 100vh;
+  vertical-align: top;
 }
 
 .main, .poems {
   text-align: center;
 }
 .intro {
-  vertical-align: top;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 80vh;
+  height: 90vh;
 }
 
 .back-to-top {
