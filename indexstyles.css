@@ -126,11 +126,17 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main, .poems {
   text-align: center;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 90vh;
 }
 
 .back-to-top {
