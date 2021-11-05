@@ -125,7 +125,6 @@ body {
 .main {
   display: block;
   height: 100vh;
-  vertical-align: top;
 }
 
 .main, .poems {
