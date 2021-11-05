@@ -150,12 +150,12 @@ body {
     text-align: center;
 
   }
-  intro {
+  .intro {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-    height: 85vh;
+    height: 80vh;
   }
 }
 
