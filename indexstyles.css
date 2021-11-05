@@ -122,9 +122,8 @@ body {
 }
 
 .main {
-  display: flex;
+  display: block;
   height: 100vh;
-  justify-content: center;
 }
 
 .poems {
@@ -143,7 +142,6 @@ body {
   .main {
     display: block;
     height: 95vh;
-    justify-content: center;
   }
   .intro {
     display: flex;
