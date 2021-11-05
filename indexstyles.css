@@ -94,7 +94,6 @@
   }
 }
 
-
 /* Opera < 12.1 */
 @-o-keyframes fadein {
   from {
@@ -123,18 +122,23 @@ body {
 }
 
 .main {
-  display: block;
+  display: flex;
   height: 100vh;
-}
-
-.main, .poems {
+  flex-direction: column;
+  justify-content: space-around;
   text-align: center;
 }
+
+.poems {
+  text-align: center;
+}
+
 .intro {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  height: 90vh;
+  text-align: center;
+  height: 80vh;
 }
 
 .back-to-top {
