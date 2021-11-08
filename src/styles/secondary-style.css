@@ -19,10 +19,12 @@ body {
     align-items: center;
   }
 }
+
 @media only screen and (min-width: 420px) {
   .blog-container {
     text-align: center;
   }
+
   .main {
     color: white;
     display: flex;
@@ -116,8 +118,12 @@ video {
   padding: 25%;
 }
 
-.socials-link {
-  padding: 20px;
+i {
+  padding: 20px 20px 20px 20px;
+}
+
+.socials-link:hover {
+  color: black;
 }
 
 /* Navbar / Dropdown Index Button */
