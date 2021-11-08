@@ -84,6 +84,7 @@ body {
   border: none;
   outline: none;
   transition: 0.4s;
+  width: 50%;
 }
 
 .active, .accordion:hover {
