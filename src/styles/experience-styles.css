@@ -91,7 +91,7 @@ h3 {
   border: none;
   outline: none;
   transition: 0.4s;
-  width: 75%;
+  width: 100%;
 }
 
 .active, .accordion:hover {
@@ -104,7 +104,7 @@ h3 {
   background-color: black;
   display: none;
   overflow: hidden;
-  width: inherit;
+  width: 95%;
 }
 
 .accordion:after {
