@@ -104,6 +104,7 @@ h3 {
   background-color: black;
   display: none;
   overflow: hidden;
+  width: inherit;
 }
 
 .accordion:after {
