@@ -95,6 +95,9 @@ video {
   padding-top: 20px;
 }
 
+.nemesis {
+  max-width: 75%;
+}
 .navbarexample {
   width: 200px;
   padding-top: 10px;
