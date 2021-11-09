@@ -292,8 +292,8 @@ ol, li {
   background-repeat: no-repeat;
   background-position: center center;
   color: #fff;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 2rem;
+  line-height: 1rem;
   text-align: center;
   pointer-events: none;
 }
