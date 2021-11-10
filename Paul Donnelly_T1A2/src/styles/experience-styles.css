@@ -4,7 +4,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 120vh;
 }
 
 .main {
@@ -69,13 +69,14 @@ body {
 }
 
 /* Accordion */
-h3 {
-  font-size: 1rem;
+
+li {
+  font-size: 0.9rem;
 }
 
 .accordion-container {
   display: flex;
-  height: 100%;
+  height: 100vh;
   flex-direction: column;
   text-align: center;
   align-items: center;
@@ -87,7 +88,6 @@ h3 {
   font-family: 'Times New Roman';
   color: #fff;
   cursor: pointer;
-  padding: 0px 18px;
   text-align: center;
   border: none;
   outline: none;
@@ -104,18 +104,23 @@ h3 {
   padding: 0 18px;
   background-color: black;
   display: none;
-  overflow: hidden;
-  width: 95%;
+  overflow: visible;
+  text-align: left;
 }
 
 .accordion:after {
   content: '\02795';
   font-size: 9px;
-  color: #fff;
+  background-color: #ffffff;
   float: right;
   margin-left: 5px;
 }
 
 .active:after {
   content: "\2796";
+}
+
+.workExpHeading {
+  text-align: center;
+  font-weight: bold;
 }
