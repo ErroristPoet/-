@@ -7,23 +7,7 @@ body {
   height: 100vh;
 }
 
-@media only screen and (max-width: 420px) {
-  .main {
-    color: white;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    height: 100%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
 
-@media only screen and (min-width: 420px) {
-  .blog-container {
-    text-align: center;
-  }
 
   .main {
     color: white;
@@ -35,74 +19,7 @@ body {
   }
 }
 
-/* Blog pages  */
-.blog-heading {
-  padding-top: 0;
-  width: 100%;
-  background-color: black;
-  text-align: center;
-  border-radius: 15px;
-}
 
-@media only screen and (max-width: 420px) {
-  .blog-post {
-    background-color: black;
-    padding: 0 20px 0 20px;
-    border-radius: 15px;
-    text-align: left;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-}
-
-@media only screen and (min-width: 420px) {
-  .blog-post {
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: left;
-  }
-}
-
-@media only screen and (min-width: 900px) {
-  .blog-post {
-    background-color: black;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    text-align: left;
-  }
-}
-
-a {
-  color: white;
-}
-
-/* Blog Media */
-.teddy-eye {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  max-height: 300px;
-}
-
-video {
-  padding-top: 20px;
-}
-
-.nemesis {
-  max-width: 75%;
-}
-.navbarexample {
-  width: 200px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
 
 /* Contact Page */
 .button {
