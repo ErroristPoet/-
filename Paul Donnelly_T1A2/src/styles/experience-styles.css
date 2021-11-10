@@ -11,6 +11,11 @@ body {
   color: white;
 }
 
+.resume {
+  margin: auto;
+  color: white;
+}
+
 /* Navbar / Dropdown Index Button */
 .navbar {
   width: 100%;
