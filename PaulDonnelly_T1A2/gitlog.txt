@@ -1,0 +1,1065 @@
+commit 404e498fdcadc51adb5ffa229e4cbad873adc413
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Sat Nov 13 15:34:04 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Sat Nov 13 15:34:04 2021 +1100
+
+    added sri sha512 integrity to assessment
+
+commit 0755cbd1b361de055ec0fef51e47fbab80b3e8c5
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Nov 12 10:43:22 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Nov 12 10:43:22 2021 +1100
+
+    added hover styling blog headings
+
+commit df78f67dc85e14c0d2104df136f6111fc9718157
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Nov 12 10:38:20 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Nov 12 10:38:20 2021 +1100
+
+    changed full stack developer padding
+
+commit 9815a0ceee853783d9a281a15e9ea3587853c688
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Nov 12 09:57:32 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Nov 12 09:57:32 2021 +1100
+
+    updated carousel div to flex, added new padding-top, max width/height
+
+commit eebd57d1958e4295f9254366ca7e67a3827dc827
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Nov 12 09:39:57 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Nov 12 09:39:57 2021 +1100
+
+    changed carousel container padding
+
+commit 121b0580e45159319087fc2c9df7b32e3e951e54
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Nov 12 09:16:42 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Nov 12 09:16:42 2021 +1100
+
+    changed height of full stack line
+
+commit bf3ff6df7f3bf07170e718bbd6b223ff57e10aea
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 11 10:58:55 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 11 10:58:55 2021 +1100
+
+    deleted space in name of folder for assessment
+
+commit 65a3490757f81a1f813e37462f1da3566d829e17
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 11 10:36:24 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 11 10:36:24 2021 +1100
+
+    updated font-size, padding for accordion buttons
+
+commit bc72080f9fc67412c1512857e4b7e7b8fa235beb
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 11 09:59:54 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 11 09:59:54 2021 +1100
+
+    changed font size, due to removed h4
+
+commit 23630d5c6433b6ce56b41b24d236d9b26c44d3a7
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 11 09:56:57 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 11 09:56:57 2021 +1100
+
+    closed div tag, removed stray main tag
+
+commit 87e2f3f3cdfd973912b150f9c1f56e3a20bef7d8
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 11 09:54:16 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 11 09:54:16 2021 +1100
+
+    closed main div tag
+
+commit ef2cdf548fcbbb0c8b10e6848aa75aeb7054b258
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 11 09:48:32 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 11 09:48:32 2021 +1100
+
+    closed all the ul tags
+
+commit cc86be92e2a093d77e1f42b9073d9cc8c6012569
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 11 09:47:20 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 11 09:47:20 2021 +1100
+
+    closed ul tag
+
+commit bd6857a2cec9009230174c21ad53ebc19b5aaa91
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 11 09:45:28 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 11 09:45:28 2021 +1100
+
+    added space to resume link "%20", removed h4 from button accordion
+
+commit c34fd1041e05ad46a4dd929ba55f5689d7400f17
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Nov 10 18:06:48 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Nov 10 18:06:48 2021 +1100
+
+    + blog-styles - fix hght issue on mobile/tablet for blog container
+
+commit 196f9913e87cc18d65b0f098face4a3299c3f32a
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Nov 10 17:28:50 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Nov 10 17:28:50 2021 +1100
+
+    changed vh to % to fix mobile media query issue
+
+commit 379fc3e8d850350df22b278398aec69ea3d2b1ed
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Nov 10 17:20:29 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Nov 10 17:20:29 2021 +1100
+
+    media query tablet for main css - full stack closer to skill carousel
+
+commit fbb1bf032dbd5dd66852547bdb3d39fcbd316b86
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Nov 10 17:11:40 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Nov 10 17:11:40 2021 +1100
+
+    added min-height webkit fill to main css page
+
+commit b1370c0d9ac13b00054dc3fe66a67ab6ee9cabb1
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Nov 10 17:03:55 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Nov 10 17:03:55 2021 +1100
+
+    fixed styling path and link paths for Assessment, updated travel styles
+
+commit 2d7caed0c2785c6f7a36a6958b6825f08625e43f
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Nov 10 16:48:50 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Nov 10 16:48:50 2021 +1100
+
+    added line breaks for blog posts
+
+commit 69d303563e89911d68ccd6947ee399db78d75ccc
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Nov 10 16:43:11 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Nov 10 16:43:11 2021 +1100
+
+    moved resume link outside accordion div into main div
+
+commit 4c7f792425c83db600f30022ebb305c3662bd239
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Nov 10 16:39:13 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Nov 10 16:39:13 2021 +1100
+
+    added styled resume placeholder link
+
+commit af7b8b7b83aa6940ecf995c0fdf0ba287d17b93f
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Nov 10 16:34:51 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Nov 10 16:34:51 2021 +1100
+
+    added resume placeholder to repository
+
+commit 2b167f92082945fe2e80a5659fb1dae7d7d91ba6
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Nov 10 16:30:08 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Nov 10 16:30:08 2021 +1100
+
+    added blog 5 & img, fixed heading links to blogs in all blog pages
+
+commit f7bea1049ae7d42cbe1589702f7bb75049e39a40
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Nov 10 14:33:05 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Nov 10 14:33:05 2021 +1100
+
+    added bg colour to accordion open indicator, changed h3 to h4, font size
+
+commit 5f3ca6ced4ef1b6a8e43a625b022253b919596cf
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Nov 10 14:01:34 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Nov 10 14:01:34 2021 +1100
+
+    added sri sha-512 to fontawesome cdn link, added github icon
+
+commit 108f76b2d059e58a76b21dff4f565c640e034f10
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Nov 10 02:40:50 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Nov 10 02:40:50 2021 +1100
+
+    changed height of experience accordion to 100% from vh to see content
+
+commit 34165dee93eb3150182f06a45a688a32ffcae247
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Nov 10 02:40:30 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Nov 10 02:40:30 2021 +1100
+
+    changed height of experience accordion to 100% from vh to see content
+
+commit 7e1cf20a42975e38c362f9787fa80fa19d32a83b
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Nov 10 02:34:30 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Nov 10 02:34:30 2021 +1100
+
+    added background color/border radius to social media icons
+
+commit 108f2178aecb0e3d3f0c12aa664f6a4506dd3a72
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Nov 10 02:28:52 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Nov 10 02:28:52 2021 +1100
+
+    added github icon/link to github profile
+
+commit 5c189382fee071dd1607ec694bc942cebe68166e
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Nov 10 02:24:35 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Nov 10 02:24:35 2021 +1100
+
+    centered travel headings max width 450
+
+commit e3c33d42220356f6c8ead71b1ef740a1abba6e7f
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Nov 10 02:13:21 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Nov 10 02:13:21 2021 +1100
+
+    added home button to other poetry dropdown index
+
+commit 80678ad24a6d2291a88b69ac7888088472c44b2e
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Nov 10 02:10:53 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Nov 10 02:10:53 2021 +1100
+
+    moved other poetry to top of index list, removed bootstrap from op page
+
+commit dde51eacea5e5248e8520a65178fbc81c95e3aec
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Nov 10 02:00:51 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Nov 10 02:00:51 2021 +1100
+
+    updated title of pages to reflect content
+
+commit 5ab6b7ef4a8ee589bbb188f2b6384395c57807da
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Nov 10 01:58:33 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Nov 10 01:58:33 2021 +1100
+
+    added div caption title whilst still using flexbox to position correctly
+
+commit fa62613ed2f75ae89c06532cd30e2e547d0cc298
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Tue Nov 9 21:31:38 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Tue Nov 9 21:31:38 2021 +1100
+
+    fixed justify content center with height of parent container
+
+commit e2dc6d4651be88fbf218f427dc8c5e413e161470
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Tue Nov 9 21:09:13 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Tue Nov 9 21:09:13 2021 +1100
+
+    aligned text center for experience accordion
+
+commit 9c49f75b1b1a8fd896c96b6a60356d358b30bd79
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Tue Nov 9 21:06:55 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Tue Nov 9 21:06:55 2021 +1100
+
+    changed width of accordion
+
+commit 3bafa737251f42bcff67061d0cf4f88b1591a57c
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Tue Nov 9 20:57:49 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Tue Nov 9 20:57:49 2021 +1100
+
+    moved skills carousel to main page, made size of arrows larger
+
+commit db578e87ac7f5237a8b3e080c6183edc098a2509
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Tue Nov 9 20:43:35 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Tue Nov 9 20:43:35 2021 +1100
+
+    added 4th blog post, changed order of blog posts to newest - oldest
+
+commit d77697e8510a5667af72d97a5a1ccb606187bc1c
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Tue Nov 9 20:34:12 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Tue Nov 9 20:34:12 2021 +1100
+
+    fixed blog link
+
+commit adddde401779b636f6fcf6d259e42f2efca69c40
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Tue Nov 9 20:32:46 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Tue Nov 9 20:32:46 2021 +1100
+
+    added blog link to index dropdown for blog posts, added blog posts
+
+commit 591dd2395788ceabed1cfdb1f6e99d58f5a25a84
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Tue Nov 9 15:09:31 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Tue Nov 9 15:09:31 2021 +1100
+
+    changed width of panel to inherit to match size of accordion container
+
+commit 637231d48f9e62dc7e38d940ab38ece7933198c3
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Tue Nov 9 15:06:52 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Tue Nov 9 15:06:52 2021 +1100
+
+    changed font-size exp h3, changes skills arrow size
+
+commit 93f704702c21912ded31bfc642342dcfcef7bef5
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Tue Nov 9 15:04:53 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Tue Nov 9 15:04:53 2021 +1100
+
+    changed font-size experience h3, changed skills before/after arrow size
+
+commit bd311297273e78e7f8b101d03be9dabf56b72d9a
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Mon Nov 8 20:54:29 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Mon Nov 8 20:54:29 2021 +1100
+
+    removed width 100% from accordion
+
+commit 718d7beb90cb6160a5823a955a4f1e57e3c3fe31
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Mon Nov 8 20:54:08 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Mon Nov 8 20:54:08 2021 +1100
+
+    updated width of accordion
+
+commit 3c68ca7543f8eb550dddd31a0ce31d53b60a976d
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Mon Nov 8 20:51:36 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Mon Nov 8 20:51:36 2021 +1100
+
+    added h3 class to accordion headings, centered content
+
+commit 7246a4ce5cba7a93667b3405c66acdf9c504c582
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Mon Nov 8 20:40:44 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Mon Nov 8 20:40:44 2021 +1100
+
+    added padding for social icons, fixed experience page accordion
+
+commit 0aef38cb650fba7daa0626c686fa52a8bf1655b5
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Sat Nov 6 14:41:00 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Sat Nov 6 14:41:00 2021 +1100
+
+    added font awesome icons to skills carousel
+
+commit 50512067093a4bb22c234ea3d468a2afcf74285b
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Nov 5 15:33:54 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Nov 5 15:33:54 2021 +1100
+
+    Added 3rd Blog, added media queries for phone, tablet, desktop to blogs
+
+commit eebea8518551bdba0c8a3fce6c692c3442add804
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Nov 5 13:08:42 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Nov 5 13:08:42 2021 +1100
+
+    updated height of main for non media query intro
+
+commit a99fc2329f3f719b9dca253cc90a6f216adbdc53
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Nov 5 13:06:21 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Nov 5 13:06:21 2021 +1100
+
+    updated classes
+
+commit 5ccb789093a9ac9ca26ae09421bf761aed6e1d45
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Nov 5 13:04:10 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Nov 5 13:04:10 2021 +1100
+
+    flex to block - .main
+
+commit 8f3f493605d426b6a90a0773c87040d373509dba
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Nov 5 13:02:01 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Nov 5 13:02:01 2021 +1100
+
+    removed column flex direction from main and applied only to intro
+
+commit b24d9976623be5efa1c0ab8c5228cfd154765cdf
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Nov 5 12:57:19 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Nov 5 12:57:19 2021 +1100
+
+    removed flex settings for main, in hope that intro is fixed
+
+commit 2dee3f6e89865008dc6de1f54b13796d294eddce
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Nov 5 12:47:08 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Nov 5 12:47:08 2021 +1100
+
+    optimising for phone
+
+commit 9e76ee7eb549c5e6e6c8d8ff9c2a0a6eba170f83
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Nov 5 12:45:10 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Nov 5 12:45:10 2021 +1100
+
+    changed media query to 600px
+
+commit ad98e18ca4108f1fde88a27576ddbca67f2e222c
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Nov 5 12:44:05 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Nov 5 12:44:05 2021 +1100
+
+    added full stop before class intro
+
+commit b2e9c16dd0362d1abfa7b46e8a02ba32f70f067f
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Nov 5 12:41:18 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Nov 5 12:41:18 2021 +1100
+
+    changed viewport height for max-width 400px media query
+
+commit f5e91089c0ed4a19b4349167ed990e4cad6f25cc
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Nov 5 12:39:28 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Nov 5 12:39:28 2021 +1100
+
+    added media query for height of main/intro
+
+commit 43e181a7ae12325f5bdc2fb8136820a94da2cffe
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Nov 5 12:32:28 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Nov 5 12:32:28 2021 +1100
+
+    changed height for intro
+
+commit 1161ad9fc8e649d54f806260083e619ed3f84df7
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Nov 5 12:28:03 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Nov 5 12:28:03 2021 +1100
+
+    removed redundant formatting
+
+commit 5cae5d4e16c6a61797b86ecb594441a6ba32be7a
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Nov 5 12:26:30 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Nov 5 12:26:30 2021 +1100
+
+    changed main display to block, intro remains flex
+
+commit 8e6614b6e17217fbdc7719552601a41b3ecb51cc
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Nov 5 12:22:41 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Nov 5 12:22:41 2021 +1100
+
+    adjusted viewport height of intro within main
+
+commit aec116c8059a4fed98b23095d7bba7b408d8e058
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Nov 5 12:18:49 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Nov 5 12:18:49 2021 +1100
+
+    added container for intro to allow viewport height to be set better
+
+commit 283db0dc3202a03f809dce21cb39aa2a8cacdf90
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Nov 5 11:10:09 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Nov 5 11:10:09 2021 +1100
+
+    removed old/added new carousel from skills page, added contact page
+
+commit 2a7b2ad84981a183ed85f5992e730721ecf80f6e
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 4 20:47:47 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 4 20:47:47 2021 +1100
+
+    added mozilla, ms compatibility, removed extemporaneous padding
+
+commit 99cc2a913f4e608ddac55b89f80c8cbc369620da
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 4 20:31:29 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 4 20:31:29 2021 +1100
+
+    removed bg color from main page name title
+
+commit 2bf45729d342df2855232f6fe74ad3a15d9e3e30
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 4 20:27:38 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 4 20:27:38 2021 +1100
+
+    changed video size
+
+commit e53893afe1472c5d25309b47ca7f6cec1905eb1a
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 4 20:25:10 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 4 20:25:10 2021 +1100
+
+    changed viewport width of teddy eye
+
+commit 229ef5538c173b6ef5688af085c79e2baadf6548
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 4 20:20:49 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 4 20:20:49 2021 +1100
+
+    created new travel-styles css, updated blog 1, added blog 2
+
+commit b03daf475b1989f28ce9f7101f896d862c90081d
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 4 11:48:42 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 4 11:48:42 2021 +1100
+
+    changed height of slider content yet again
+
+commit 24c48116367a5dba0e09bda5fc9328454f0b1af8
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 4 11:34:43 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 4 11:34:43 2021 +1100
+
+    changed from main containing background image to body for cleaner look
+
+commit 9d395695aca232476500cb76199bc6b67aafc63a
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 4 11:26:21 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 4 11:26:21 2021 +1100
+
+    changed slider for carousel height again -- issues
+
+commit 8ea3fbbac56f559ccf0cd278499c4eddc4464556
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 4 11:23:01 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 4 11:23:01 2021 +1100
+
+    changed height of slider inner to better fit height of body
+
+commit 61ff41fa618bed9f55784db1786ba8826e0e9213
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 4 11:17:17 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 4 11:17:17 2021 +1100
+
+    changed slider height for screen-size (mobile), removed <i> element
+
+commit 7c55e7eb1bebafb28d033b3f17bc389b9d20ca1e
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 4 11:14:32 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 4 11:14:32 2021 +1100
+
+    changed slider height for screen-size (mobile), removed <i> element
+
+commit c23dee608b9efc8723b5c0e3bfb214b17732dd93
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 4 11:03:03 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 4 11:03:03 2021 +1100
+
+    changed main.css height from main class div to body
+
+commit acaec534b4af6518618150adf93b22d3aa5268fb
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 4 11:00:31 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 4 11:00:31 2021 +1100
+
+    added text-align center to main.css, and changed height to 90vh
+
+commit 46040b75ef530ab3ea4dba977081dd3ec27540a4
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 4 10:56:18 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 4 10:56:18 2021 +1100
+
+    added mobile viewport
+
+commit ee8972074a2ad7329098e1273d13dcd0919dfd57
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Nov 4 10:52:10 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Nov 4 10:52:10 2021 +1100
+
+    skills carousel added, travels section added
+
+commit c14c0e9dbda9eabe59da7179b64df5c64d9e61ec
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Sun Oct 31 16:20:04 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Sun Oct 31 16:20:04 2021 +1100
+
+    vh 90 main
+
+commit 6200b6a9dcfcdb5cbd5e10df2447727fff44aec4
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Sun Oct 31 16:18:32 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Sun Oct 31 16:18:32 2021 +1100
+
+    padding for poem titles changed, vertical height of main screen adjusted
+
+commit 47fe0ddfa57b05f29be85a219c05af09afd5dc5d
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Sun Oct 31 16:13:51 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Sun Oct 31 16:13:51 2021 +1100
+
+    portfolio content and indexstyles overflow issue fixed
+
+commit edecf817491a6d3b05d2c46776dfb3be5a2aa073
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Oct 29 10:33:17 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Oct 29 10:33:17 2021 +1100
+
+    shachar
+
+commit c181ca38b68d2861e4c667cee7d65760b60351a9
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Oct 29 10:30:01 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Oct 29 10:30:01 2021 +1100
+
+    removed errant list endings
+
+commit 5caa34ad8bd04c16683bb76736f3ff8beae0ab74
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Oct 28 20:58:24 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Oct 28 20:58:24 2021 +1100
+
+    added hover condition for back to top button
+
+commit d74cf516565c3bd5b7d519b055de3a6febb3296f
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Oct 28 15:01:03 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Oct 28 15:01:03 2021 +1100
+
+    folders
+
+commit 6863d9035597c2a76e3dc82a47dff6aa53eb4305
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Oct 28 14:59:16 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Oct 28 14:59:16 2021 +1100
+
+    changed name of portfolio assessment to correct format
+
+commit 5b905301176605a0d32d34d2090837c01cebc213
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Oct 28 14:34:48 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Oct 28 14:34:48 2021 +1100
+
+    removed <li> from title of poem in index
+
+commit ebca99209df5e0c7bc39ec68ad12ce2cfe09675f
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Oct 28 14:28:07 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Oct 28 14:28:07 2021 +1100
+
+    overflow scroll
+
+commit f7511702ddf4e87ba25a4fcda32870e555b5fd6a
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Oct 28 14:20:59 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Oct 28 14:20:59 2021 +1100
+
+    justify content: space-around
+
+commit 5754b56963582a1bea4880e4c5989ddc942ef7dd
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Oct 28 14:16:49 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Oct 28 14:16:49 2021 +1100
+
+    changed characters to html
+
+commit da29b21753c4a583c83678ef5a55439d3e5dd5f0
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Oct 28 14:15:51 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Oct 28 14:15:51 2021 +1100
+
+    changed characters to html code
+
+commit 79111cb5b034f305d5c9d7f11c339d24bf96e39d
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Oct 28 14:14:19 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Oct 28 14:14:19 2021 +1100
+
+    comment change
+
+commit b33c23e7f983fbd5470ec95ce0d525f13bd5ca76
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Oct 28 14:07:59 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Oct 28 14:07:59 2021 +1100
+
+    changed height of main title
+
+commit 5562ea56e1e79357c0b786833701e480874e8143
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Oct 28 14:01:28 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Oct 28 14:01:28 2021 +1100
+
+    moved images
+
+commit 8817c484e9e57368482f102898eac18dfaff3493
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Thu Oct 28 14:00:22 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Thu Oct 28 14:00:22 2021 +1100
+
+    removed bootstrap from website, added Week 3 content
+
+commit 1e6537ecaf57f767b0653449517e9cd188be7dab
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Sat Oct 23 12:36:29 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Sat Oct 23 12:36:29 2021 +1100
+
+    portfolio changes
+
+commit 13ee0d8a51ae5f39ff1b0cd83651510dd916f3bb
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Sat Oct 23 10:34:20 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Sat Oct 23 10:34:20 2021 +1100
+
+    small issues with safari regarding mathematical symbols
+
+commit 5651a2406b121d70b3686c23313855c72fbe2121
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Sat Oct 23 10:24:00 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Sat Oct 23 10:24:00 2021 +1100
+
+    yet still, the skeleton-hand needs changes
+
+commit 8b6130397519ebf3244584cfad886e6d0905b739
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Oct 22 21:51:26 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Oct 22 21:51:26 2021 +1100
+
+    media rules skeleton hand -- again
+
+commit 8ace8a79b5e7c9b2d2e2c62f27498cc1afa55060
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Oct 22 21:40:38 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Oct 22 21:40:38 2021 +1100
+
+    still still playing around with skeleton hand media rules
+
+commit 2f1ba461767420b1f18f9e6d2cfad67a10d20dcb
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Oct 22 21:29:33 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Oct 22 21:29:33 2021 +1100
+
+    still playing around with media for skeleton hand
+
+commit 82cbf7d68e7bf76c0657976b1a5bfaf7204986d4
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Oct 22 21:08:13 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Oct 22 21:08:13 2021 +1100
+
+    changing skeleton hand dimensions and media rules
+
+commit 307ff6c9d5a71b204b461527ebd73a659ebe9350
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Oct 22 20:56:57 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Oct 22 20:56:57 2021 +1100
+
+    fixed silly mistake
+
+commit 8341ed03dbf88a0c99866306f46a837e15d989b4
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Oct 22 20:51:07 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Oct 22 20:51:07 2021 +1100
+
+    Paulie media change
+
+commit e27338ecef4942bcefd11f934ea569039e97c14a
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Oct 22 20:42:50 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Oct 22 20:42:50 2021 +1100
+
+    fixed navbar hover colours, altered top container
+
+commit c7ed60955e946f323ca86490bfaf1ec01cb5d89e
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Oct 22 19:05:50 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Oct 22 19:05:50 2021 +1100
+
+    added stars to relevant sections
+
+commit 56a2674a5978526e7d2ff2ffc69ccdf17526606a
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Oct 22 19:02:43 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Oct 22 19:02:43 2021 +1100
+
+    fixed h2
+
+commit 809a8bc9d4706aca3944753e7220ecfe6cf06d86
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Oct 22 12:14:18 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Oct 22 12:14:18 2021 +1100
+
+    changed skeleton hand properties
+
+commit edd06fde3578c9cde215ccf7a373fd6a0ed433fb
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Oct 22 12:03:45 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Oct 22 12:03:45 2021 +1100
+
+    skeleton hand changes
+
+commit 32c669a659190a9375569803d8ba67ae8ce9d62a
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Oct 22 11:56:37 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Oct 22 11:56:37 2021 +1100
+
+    changed skeleton hand properties
+
+commit 41f53cc7b8fddbfac6ccf3f55b603371bc4e2d50
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Oct 22 11:31:12 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Oct 22 11:31:12 2021 +1100
+
+    finer details change
+
+commit 1dce9ae6e71ad0dc76eaa6c5b6b97a0fae10c071
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Oct 22 11:28:01 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Oct 22 11:28:01 2021 +1100
+
+    added experience h2, href link
+
+commit 4c5ef4940160648dadb1aabaacf2eaed479771c9
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Oct 22 11:00:57 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Oct 22 11:00:57 2021 +1100
+
+    small changes
+
+commit c4c01db31cf845459d222995f9a318dad4aee492
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Oct 22 10:57:31 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Oct 22 10:57:31 2021 +1100
+
+    updated workexp accordion
+
+commit f9e5f684e43f5520c6040e7a8c2ce7f2ef0d8fdb
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Fri Oct 22 10:54:24 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Fri Oct 22 10:54:24 2021 +1100
+
+    Deleted table, installed accordion for Work Exp
+
+commit ca669ee81c692526de2b46162426df2e50c4a1f6
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Oct 20 15:53:05 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Oct 20 15:53:05 2021 +1100
+
+    updated about-me css
+
+commit 655b2c05492ab3e308d9c81ef31f159259ef9b7b
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Oct 20 15:52:47 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Oct 20 15:52:47 2021 +1100
+
+    updated stylesheet name, changed about-me css @media height
+
+commit ab9cd2fa4c26a5e126872a10d08e9a5c511f9301
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Oct 20 15:36:44 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Oct 20 15:36:44 2021 +1100
+
+    skeleton hand changes; position, bottom, disabled float
+    paulie changes; padding
+    middle-container; padding
+
+commit 2f9368b709cdb99ac565a8af4ad73a30ebb2ace5
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Oct 20 15:20:17 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Oct 20 15:20:17 2021 +1100
+
+    changed skeleton hand to px from %
+
+commit 6cb0a94ab0bedfe9ba2ec31a100f51f75cd84e89
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Oct 20 15:15:33 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Oct 20 15:15:33 2021 +1100
+
+    changed skeletonhand to px instead of percentage
+
+commit a5bbf21eef1035f928bcb3795899c7c516829b05
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Oct 20 15:07:59 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Oct 20 15:07:59 2021 +1100
+
+    changed position of skeleton hand
+
+commit 4d3aafd10ebb898c53929017652205ac70f80945
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Oct 20 14:42:17 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Oct 20 14:42:17 2021 +1100
+
+    changed padding from % to px
+
+commit 39ac21a568c414b6d2dbd0dc5338b4c7a7ba90f1
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Oct 20 11:47:52 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Oct 20 11:47:52 2021 +1100
+
+    updated styles3
+
+commit b53c36f334d2c326f72b6139010edefd4b088438
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Oct 20 11:43:31 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Oct 20 11:43:31 2021 +1100
+
+    updated about-me, index, indexstyles and styles3
+
+commit 44e2ed4248ce1790fcf57712971b91378bab24e6
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Oct 20 11:20:35 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Oct 20 11:20:35 2021 +1100
+
+    updated styles3 padding, height
+
+commit d9abd362e55e20e983a95b94c9c8fedfa7267f47
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Oct 20 11:17:52 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Oct 20 11:17:52 2021 +1100
+
+    updated indexstyles padding, removed flex
+
+commit 709250e8b6177b4584b882f951f005bc2405f130
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Oct 20 11:07:50 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Oct 20 11:07:50 2021 +1100
+
+    updated index.html
+
+commit 7282723deadb61b6eb97c970e1abc493d2407fd0
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Oct 20 11:06:31 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Oct 20 11:06:31 2021 +1100
+
+    updated indexstyles.css
+
+commit d69fb34eb02b48510acaae26629f75e1f639be12
+Author:     waulie <donnelly.pf@gmail.com>
+AuthorDate: Wed Oct 20 10:36:25 2021 +1100
+Commit:     waulie <donnelly.pf@gmail.com>
+CommitDate: Wed Oct 20 10:36:25 2021 +1100
+
+    first atom commit
