@@ -339,12 +339,17 @@ li {
 
 .contact-me-container {
   display: flex;
-  height: 100vh;
   flex-direction: column;
   justify-content: center;
   background-color: black;
   color: #F89D13;
   text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-me-container {
+    height: 100vh;
+  }
 }
 
 .socials-container {
