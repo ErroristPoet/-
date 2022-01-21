@@ -1,6 +1,6 @@
 /* Navigation Bar */
 .dropbtn {
-  font-family: 'Times New Roman';
+  font-family: 'Times New Roman', serif;';
   background-color: black;
   color: white;
   padding: 16px;
@@ -118,7 +118,8 @@
 body {
   background-color: black;
   color: white;
-  font-family: 'Times New Roman'
+  font-family: 'Times New Roman', serif;
+  font-size: 12px;
 }
 
 .main {
@@ -176,6 +177,7 @@ h2 {
 }
 
 h3 {
+  font-size: 14px;
   padding-bottom: 10px;
 }
 
