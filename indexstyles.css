@@ -7,6 +7,7 @@
   font-size: 1.15rem;
   border: none;
   cursor: pointer;
+  position: sticky;
 }
 
 .dropdown {
