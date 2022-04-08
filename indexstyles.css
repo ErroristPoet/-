@@ -157,6 +157,7 @@ body {
   background-color: black;
   color: white;
   overflow: hidden;
+  text-align: center;
 }
 
 .intro {
