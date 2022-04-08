@@ -153,9 +153,11 @@ body {
   padding: 0 18px;
   font-family: 'Times New Roman';
   display: none;
-  overflow: hidden;
   background-color: black;
   color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
 }
 
 .intro {
