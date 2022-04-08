@@ -134,6 +134,7 @@ body {
 
 .collapsible {
   background-color: #fff;
+  font-family: 'Times New Roman';
   color: #000;
   cursor: pointer;
   padding: 18px;
@@ -150,6 +151,7 @@ body {
 
 .content {
   padding: 0 18px;
+  font-family: 'Times New Roman';
   display: none;
   overflow: hidden;
   background-color: #000;
