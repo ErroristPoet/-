@@ -7,6 +7,7 @@
   <!-- My CSS Styles -->
 
   <link rel="stylesheet" href="indexstyles.css">
+  <link rel="">
   <!-- Mobile phone viewport -->
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,6 +16,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://paulfdonnelly.com/" />
   <meta property="og:image" content="https://paulfdonnelly.com/poem.jpg" />
+
 </head>
 
 <body>
@@ -86,7 +88,7 @@
   <!-- Poems -->
   <div class="poems">
     <hr>
-<button type="button" class="collapsible"><h3><a id="garden">In His Garden of Roses</a></h3></button>
+<button type="button" class="collapsible"><a id="garden">In His Garden of Roses</a></button>
 <div class="content">
 <p>
       Shachar gone as boy and man,<br>
@@ -1606,10 +1608,7 @@ all is well. <br>
 <a class="back-to-top" href="#top" role="button">Back to Top</a>
 <hr>
   </div>
-  <footer>
-    © Copyright 2020 Paul F Donnelly
-  </footer>
-  
+
   <script>
 var coll = document.getElementsByClassName("collapsible");
 var i;
@@ -1618,14 +1617,18 @@ for (i = 0; i < coll.length; i++) {
   coll[i].addEventListener("click", function() {
     this.classList.toggle("active");
     var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
+    if (content.style.display === "block") {
+      content.style.display = "none";
     } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
+      content.style.display = "block";
+    }
   });
 }
-</script>
+  </script>
+
+  <footer>
+    © Copyright 2020, 2021, 2022 Paul F Donnelly
+  </footer>
 
 </body>
 
