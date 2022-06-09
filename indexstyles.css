@@ -1,36 +1,9 @@
 /* Navigation Bar */
-ul {
-  top: 0;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: black;
-}
-
 .nav a {
   float: none;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
-}
-
-@media screen and (max-width: 600px){
-
-  .nav a {
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
-  }
-}
-
-li {
-  border-right: 1px solid white;
-}
-
-li:last-child {
-  border-right: none;
 }
 
 .nav a {
@@ -48,6 +21,22 @@ li:last-child {
   color: black;
 }
 
+ul {
+  top: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  border-right: 1px solid white;
+}
+
+li:last-child {
+  border-right: none;
+}
 
 .btn {
   text-decoration: none;
