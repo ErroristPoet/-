@@ -1,9 +1,7 @@
 /* Navigation Bar */
 .nav {
-  float: none;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
+  width: 100%;
+  margin: auto;
 }
 
 .nav-item {
@@ -22,10 +20,8 @@ ul a:hover {
 }
 
 ul {
-  top: 0;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: auto;
   overflow: hidden;
   background-color: black;
   color: white;
