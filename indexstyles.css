@@ -19,7 +19,7 @@ li:last-child {
   border-right: none;
 }
 
-a {
+li:a {
   font-family: 'Times New Roman';
   background-color: black;
   color: white;
@@ -29,10 +29,6 @@ a {
   cursor: pointer;
 }
 
-a:hover {
-  background-color: white;
-  color: black;
-}
 
 .btn {
   text-decoration: none;
