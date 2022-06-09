@@ -1,12 +1,12 @@
 /* Navigation Bar */
-.nav a {
+.nav {
   float: none;
   position: absolute;
   left: 50%;
   transform: translate(-50%);
 }
 
-.nav a {
+.nav {
   font-family: 'Times New Roman';
   background-color: black;
   color: white;
