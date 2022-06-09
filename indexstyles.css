@@ -143,6 +143,7 @@ body {
 .content {
   padding: 0 18px;
   font-family: 'Times New Roman';
+  font-size: 1rem;
   display: none;
   background-color: black;
   color: white;
