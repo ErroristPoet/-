@@ -8,6 +8,24 @@ ul {
   background-color: black;
 }
 
+.nav a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 600px){
+
+  .nav a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
 li {
   float: center;
   border-right: 1px solid white;
