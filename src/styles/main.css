@@ -260,6 +260,7 @@ li {
   text-align: center;
   align-items: center;
   justify-content: center;
+  overflow-y: scroll;
 }
 
 .accordion {
@@ -269,15 +270,16 @@ li {
   color: black;
   cursor: pointer;
   text-align: center;
-  border: none;
   transition: 0.4s;
   width: 100%;
   padding: 18px 0 0 18px;
+  border-style: solid;
+
 }
 
 .active, .accordion:hover {
-  background-color: #F89D13;
-  color: #000;
+  background-color: #000;
+  color: #F89D13;
 }
 
 .panel {
@@ -339,7 +341,9 @@ li {
 
 .contact-me-container {
   display: flex;
+  position: relative;
   flex-direction: column;
+  height: 50vh;
   justify-content: center;
   background-color: black;
   color: #F89D13;
