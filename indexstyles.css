@@ -53,7 +53,7 @@ li:last-child {
 }
 
 /* Fade In Intro */
-.main1, .main2, .main3 .content {
+.main1, .main2, .main3, .content {
   -webkit-animation: fadein 3s both;
   /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 3s both;
