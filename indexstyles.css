@@ -186,17 +186,16 @@ body {
   }
 }
 
-.back-to-top {
-  background-color: white;
-  color: black;
+a:visited {
   text-decoration: none;
-  padding: 12px;
-  cursor: pointer;
-  display: inline-block;
+  color: white;
 }
-
-.back-to-top:hover {
-  background-color: black;
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+a:active {
+  text-decoration: none;
   color: white;
 }
 
