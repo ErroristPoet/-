@@ -171,6 +171,11 @@ body {
   height: 100vh;
 }
 
+.intro-heading {
+  text-decoration: none;
+  color: white;
+}
+
 @media only screen and (max-width: 600px) {
   .main {
     display: block;
@@ -185,15 +190,19 @@ body {
     height: 85vh;
   }
 }
+/* Links */
 
 a:visited {
   text-decoration: none;
   color: white;
 }
+
 a:hover {
   text-decoration: none;
-  color: white;
+  color: black;
+  background-color: white;
 }
+
 a:active {
   text-decoration: none;
   color: white;
