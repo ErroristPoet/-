@@ -179,7 +179,7 @@ body {
 @media only screen and (max-width: 600px) {
   .main {
     display: block;
-    height: 95vh;
+    height: 100vh;
   }
 
   .intro {
