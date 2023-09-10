@@ -192,6 +192,10 @@ body {
 }
 /* Links */
 
+a:link {
+  color: white;
+}
+
 a:visited {
   text-decoration: none;
   color: white;
