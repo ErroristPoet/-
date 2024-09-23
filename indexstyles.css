@@ -27,15 +27,6 @@ body {
   margin: 0 auto;   /* Center content horizontally */
 }
 
-.content {
-  .main {
-    width: 100%;
-    max-width: 1200px;
-    padding: 0 20px;  /* Padding to push text slightly away from the left */
-    margin: 0 auto;   /* Center content horizontally */
-  }
-}
-
 /* General text styling */
 .main p {
   margin-bottom: 1.5rem;
