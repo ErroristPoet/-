@@ -16,6 +16,42 @@
   cursor: pointer;
 }
 
+.circular-button {
+  width: 3rem;
+  height: 3rem;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif,;
+  text-align: center;
+  line-height: 3rem; /* Vertically center the text */
+  cursor: pointer;
+  animation: pulsate 3.14s infinite ease-in-out;
+  transition: transform 0.3s ease;
+}
+
+/* Keyframes to define the pulsating and color transition effect */
+@keyframes pulsate {
+  0% {
+      background-color: black;
+      color: white;
+      transform: scale(1);
+  }
+  50% {
+      background-color: white;
+      color: black;
+      transform: scale(1.2); /* Slight enlargement during pulsate */
+  }
+  100% {
+      background-color: black;
+      color: white;
+      transform: scale(1);
+  }
+}
+
+
 @media only screen and (max-width: 600px) {
   .nav-item {
     font-size: 0.7rem;
