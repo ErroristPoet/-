@@ -1,11 +1,12 @@
 body, html {
     min-height: 100vh;
     margin: auto;
+    padding-left: 10px;
 }
 
 .main {
 text-align: left;
-justify-content: center;
+text-justify: auto;
 }
 
 footer {
