@@ -9,12 +9,12 @@
 <body>
 
   <div class="main">
-    <button class="circular-button">
+    <button id="button1" class="circular-button">
       <a href="https://paulfdonnelly.com/piomegasigmamu.html">ΠΩΣΜ</a>
     </button>
     <p>Poems from a Utopian Future</p>
 
-    <button class="circular-button">
+    <button id="button2" class="circular-button">
       <a href="https://paulfdonnelly.com/other-poetry.html">Poems from a Less Prosperous Present</a>
     </button>
     <p>Personal Punk Poetry</p>
@@ -24,5 +24,15 @@
     © Copyright 2020-2024 Paul F Donnelly
   </footer>
 
+  <script>document.addEventListener('DOMContentLoaded', function () {
+    const button1 = document.getElementById('button1');
+    const button2 = document.getElementById('button2');
+  
+    // Animate the first button (roll in from right)
+    button1.style.animation = 'rollInFromRight 3.14s ease-in-out forwards';
+  
+    // Animate the second button (roll in from left)
+    button2.style.animation = 'rollInFromLeft 3.14s ease-in-out forwards';
+  });</script>
 </body>
 </html>
