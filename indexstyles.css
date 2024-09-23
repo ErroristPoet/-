@@ -152,19 +152,8 @@ a:link {
 
 a:visited {
   text-decoration: none;
-  color: white;
 }
 
-a:hover {
-  text-decoration: none;
-  color: black;
-  background-color: white;
-}
-
-a:active {
-  text-decoration: none;
-  color: white;
-}
 
 /* Headings */
 h1 {
@@ -181,6 +170,8 @@ h3 {
 
 /* Footer */
 footer {
+  display: flex;
+  justify-content: center;
   background-color: Black;
   Color: White;
   text-align: center;
