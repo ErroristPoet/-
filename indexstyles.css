@@ -5,6 +5,9 @@
   box-sizing: border-box;
 }
 
+nav {
+  display: inline-block; 
+}
 /* Center the content in the middle of the page */
 body {
   font-family: 'Times New Roman', serif;
