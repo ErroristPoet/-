@@ -1,3 +1,7 @@
+* {
+    font-family: 'Baskerville';
+}
+
 body, html {
     min-height: 100vh;
     margin: auto;

@@ -4,11 +4,11 @@
   padding: 0;
   box-sizing: border-box;
   text-align: center;
+  font-family: 'Baskerville', serif;
 }
 
 html, body {
   height: 100%;
-  font-family: 'Times New Roman', serif;
 }
 
 body {
