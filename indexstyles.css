@@ -66,3 +66,63 @@ body {
   color: black;
 }
 
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', serif;
+  background-color: #f4f4f4;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.circular-button {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  border: 2px solid black;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  opacity: 0; /* Start hidden */
+  position: relative;
+}
+
+.circular-button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Keyframes for rolling in from the right */
+@keyframes rollInFromRight {
+  0% {
+    transform: translateX(100vw) rotate(0deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) rotate(360deg);
+    opacity: 1;
+  }
+}
+
+/* Keyframes for rolling in from the left */
+@keyframes rollInFromLeft {
+  0% {
+    transform: translateX(-100vw) rotate(0deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0) rotate(-360deg);
+    opacity: 1;
+  }
+}
