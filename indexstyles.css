@@ -84,10 +84,10 @@ content {
 
 /* Footer styles */
 footer {
-  position: absolute;
-  bottom: 10px;
-  width: 100%;
+  color: black;
+  background-color: white;
+  display: flex;
+  justify-content: center;
   text-align: center;
-  font-size: 0.8rem;
-  color: #333;
+  align-items: center;
 }
