@@ -5,6 +5,17 @@
   box-sizing: border-box;
 }
 
+content {
+  display: flex;
+  justify-content: center;
+  font-family: 'Times New Roman', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+  text-align: center;
+}
 nav {
   display: inline-block; 
 }
