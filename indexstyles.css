@@ -4,43 +4,20 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-.poems {  
-  display: flex;
-  justify-content: center;
-  font-family: 'Times New Roman', serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f4f4f4;
-  text-align: center;
-}
-content {
-  display: flex;
-  justify-content: center;
-  font-family: 'Times New Roman', serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f4f4f4;
-  text-align: center;
-}
-nav {
-  display: inline-block; 
-}
-/* Center the content in the middle of the page */
 body {
   font-family: 'Times New Roman', serif;
   display: flex;
-  justify-content: center;
+  background-color: #f4f4f4;
+}
+content {
+  display: flex;
+  justify-content: left;
+  font-family: 'Times New Roman', serif;
+  justify-content: left;
   align-items: center;
   background-color: #f4f4f4;
-  text-align: center;
 }
-
-.main {
-  text-align: center;
-}
+/* Center the content in the middle of the page */
 
 /* Style for circular buttons */
 .circular-button {
