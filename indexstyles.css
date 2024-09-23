@@ -1,32 +1,37 @@
-/* Reset some basic styles */
+/* Reset basic styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body {
+
+html, body {
+  height: 100%;
   font-family: 'Times New Roman', serif;
-  display: flex;
-  background-color: #f4f4f4;
 }
-main {
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  text-align: center;
+  flex-direction: column;
+}
+
+/* Main content styling */
+.main {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-content {
-  justify-content: left;
-  font-family: 'Times New Roman', serif;
-  justify-content: left;
-  align-items: center;
-  background-color: #f4f4f4;
-}
-/* Center the content in the middle of the page */
 
 /* Style for circular buttons */
 .circular-button {
-  width: 10rem;
-  height: 10rem;
+  width: 12rem;
+  height: 12rem;
   border-radius: 50%;
   border: 2px solid black;
   font-size: 1.5rem;
@@ -36,13 +41,11 @@ content {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1rem auto;
+  margin: 1rem 0;
   background-color: black;
   color: white;
-  text-align: center;
 }
 
-/* Ensure the links inside the buttons have no decoration */
 .circular-button a {
   color: white;
   text-decoration: none;
@@ -53,14 +56,12 @@ content {
   align-items: center;
 }
 
-/* Button 1 */
+/* Button 1 customization */
 .button1 {
-  width: 12rem;
-  height: 12rem;
   font-size: 2rem;
 }
 
-/* Button 2 */
+/* Button 2 customization */
 .button2 {
   width: 14rem;
   height: 14rem;
@@ -79,12 +80,14 @@ content {
   color: black;
 }
 
-/* Footer styles */
+/* Footer styling */
 footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
   color: black;
   background-color: white;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+  font-size: 0.9rem;
+  padding: 10px 0;
 }
